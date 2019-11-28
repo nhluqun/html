@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>必修1第二章第三节常见的天气系统 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+
+</script> -->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" >
+                                                 <input type="text" name="bj" value="1" />
+                                                 <input type="submit" name="submit" value="点名" />
+                                </form></div>-->
+
+                            <div id="output1" style="position: absolute;right:160px;top:-30px;width:520px;color:white"> </div>
+				<div id="p"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">常见的天气系统课堂练习</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+
+					<p >
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="13" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+
+
+		<p>1. 关于锋面的叙述正确的是(      )</p>
+	<p class="fragment highlight-red">A.冷暖气团交界面叫锋面</p>
+<p >B.冷气团主向暖气团移动的叫暖锋</P>
+<p >C. 暖气团主向冷气团移动的叫冷锋</P>
+<p >D.我国北方夏季的暴雨多由暖暖锋形成
+</P>
+
+		</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>以下是某中学高一年级丁强同学的日记片段“星期天，天终于放晴了，风也小了，虽然一直没有下雨，可天出奇地冷，我不得不再加了件毛衣。爸爸一早就去修补被风吹坏了的塑料大棚。我和妈妈拿着扫把也去帮忙。大棚上积压了一层厚厚的尘土。二伯他们也在田里忙着，他们在麦田边点起一堆一堆的柴草，浓烟滚滚……”据此回答2-3题：</P>
+					<p>2．从日记描述来看，这里刚刚经历了一场①沙尘暴天气　②冷锋过境　③台风过境　④寒潮过境</p>
+					<p >A、①④
+						<span> B、②③④ </span></P>
+					<p><span class="fragment highlight-red"> C、①②④</span>  <span>
+						D、①③ </span></P>
+
+				</section>
+
+		</section>
+				<section>
+							<section>
+					<p>3．下列四幅图中，正确表示本次天气系统的是（  ）</P>
+					<p class="fragment highlight-red">A．A</p>
+					<p >B．B</P>
+					<p >C．C </P>
+					<p >D．D
+					</P>
+								<img  data-src="pic/bx1-231/image006.gif" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+						</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>4. 下列表示暖锋天气的示意图是：（	  ）</P>
+					<p class="fragment highlight-red">A.A</p>
+					<p >B.B</p>
+					<p >C.C</p>
+					<p >D.D</p>
+					<img  data-src="pic/bx1-231/image007.jpg" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+				</section>
+
+
+				</section>
+
+				<section>
+                 <section>
+
+					 <p>5.暖锋过境期间的天气一般表现为
+					 </p>
+					<p >A.锋前气压急剧升高，常出现雷暴天气 </p>
+					<p > B.锋后空气湿度增加，常形成大范围降水</P>
+					<p class="fragment highlight-red">C.锋前水汽凝结，常形成雨、雾天气</P>
+					<p > D.锋后气温降低，常出现晴朗天气
+					</P>
+
+				</section>
+
+				</section>
+				<section>
+				<section>
+
+                          <p >读下面“锋面示意图”,回答6—7题：</p>
+					<p>6.图中a、b、c、d属于暖气团控制下的是: </p>
+					<p >A．a b</p>
+					<p class="fragment highlight-red">  B．a c</P>
+					<p > C．a d　</P>
+					<p > D．b d
+					</P>
+					<img  data-src="pic/bx1-231/image008.jpg" alt="" style="position: absolute;left:680px;top:250px;width:400px;">
+				</section>
+
+				</section>
+			<section>
+				<section>
+
+					<p>7.图中a、b、c、d四点位于雨区的是:	</P>
+
+					<p >A．a b  </P>
+					<p > B．a c </P>
+					<p > C.a d</P>
+<p class="fragment highlight-red"> D．b d</p>
+					<img  data-src="pic/bx1-231/image008.jpg" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+			</section>
+
+
+				<section>
+				<section>
+
+					<p>8．我国天山北坡和北疆大部分地区，冬、春两季有时出现较长时间的连续降水。与此直接相关的天气系统是（     ）</P>
+
+					<p >A、快行冷锋
+					</p>
+					<p class="fragment highlight-red">B、准静止锋
+					</P>
+					<p >C、暖锋  </P>
+					<p >  D、反气旋
+					</P>
+
+				</section>
+
+				</section>
+				<section>
+
+
+					<p >9.夏初，我国长江中下游地区直至日本南部的梅雨天气是由（    ）
+					</p>
+
+					<p >A．暖锋造成的<P>
+					<p class="fragment highlight-red">B．准静止锋造成的 </P>
+					<p > C．快行冷锋造成的</P>
+                              <p > D．慢行冷锋造成的
+							  </p>
+
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+		<script src="js/raphael.js"></script>
+		<script type="text/javascript">
+            var paper = Raphael("p", 800, 600);
+            var rect = paper.rect(500, 500, 60, 40).attr({
+                "fill": "#208",
+                "stroke": "#888" ,// border color of the rectangle
+				"text":"我的框"
+            });
+            rect.animate({
+                transform: "r90t100,0s1.5"
+            }, 2000,"bounce",function(){console.log("finish");});
+            rect.click(function(){
+                alert("hahah!");
+            });
+            // rect.mouseover(function(){
+            //	alert("wow");
+            //	});
+
+		</script>
+	</body>
+
+</html>

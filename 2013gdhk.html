@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>2013广东会考题 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+                
+    
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>-->
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){ 
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+    
+</script> --> 
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" > 
+                                                 <input type="text" name="bj" value="1" /> 
+                                                 <input type="submit" name="submit" value="点名" /> 
+                                </form></div>-->
+                            
+                                <div id="output1" style="color: yellow;position: absolute;right:760px;top:530px;width:220px;"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">2013年广东省学业水平测试</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+                                        
+					<p style="text-align: center">
+						<small>制作：吕群</small>
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="1" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+   
+				<section>
+	<p> 1．目前影响我国人口生育率高低的最主要因素是 </p>
+                                      <p class="fragment highlight-red"> A．计划生育政策 </p>           
+                            <p>B．经济发展水平</p>         
+                        <p > C．受教育程度</p>         
+                            <p> D．传统观念</p>
+	     		</section>
+
+			<section>
+			<p>2．造成亚欧大陆中纬度东西两岸气候差异的主要原因是</p>
+<p >A．太阳辐射</p>         
+<p> B．纬度位置</p>       
+<p class="fragment highlight-red">C．大气环流</P>         
+<p> D．下垫面性质</p>
+					
+					</section>
+	      
+			<section>
+	                             <p>3．南水北调工程改变的水循环环节主要是</P>
+  <p  >A．水汽输送</p>         
+<p class="fragment highlight-red"> B．地表径流</p>       
+<p >C．蒸发</P>         
+<p>  D．降水</p>
+                         
+		            </section>
+ 
+				<section>
+				<p>图1为地壳物质循环示意图。读图并结合所学知识，完成4—5题。</p>
+                                <p>4．由图可知</p>
+                                        　　<p >A．甲为变质岩</p> 
+                                          <p>B．乙为沉积岩 </p>         
+                                          <p>C．丙为岩浆岩</p>
+                                          <p class="fragment highlight-red">D．丁为岩浆</p>
+                                           <img  data-src="pic/2013gdhk/image001.jpg" alt="" style="position: absolute;left:500px;top:100px;width: 500px;">
+				</section>
+
+				<section>
+		<p>5．下列描述符合地壳物质转化过程的是</p>
+                <p  > A．由乙到丁为冷却凝固作用 </p> 
+                                          <p>  B．由甲到丁为外力作用</p>         
+                                          <p> C．由丙到甲为重熔再生作用</p>
+                                          <p class="fragment highlight-red">D．由甲到丙为变质作用</p>
+                                                 <img  data-src="pic/2013gdhk/image001.jpg" alt="" style="position: absolute;left:500px;top:100px;width: 500px;">
+				</section>
+
+				<section>
+                                        <p>6．下列行为或观点符合可持续发展理念的是</p>
+                                        <p> A．竭泽而渔</p>
+<p class="fragment highlight-red">B．留得青山在，不怕没柴烧</p>
+<p>C．推广使用一次性木筷 </p>
+<p> D．洗衣服时一直开着水龙头</p>
+		</section>
+ 	
+		<section>
+		<p>7．下列各组地域单元中，可以按照同一类指标归类的是</p>
+		     　　<p  >A．黄河流域、东南丘陵、寒带</p> 
+                                          <p> B．广东省、广州市、云贵高原</p>         
+                                          <p>C．热带、温带、江南丘陵 </p>
+                                          <p class="fragment highlight-red">D．湿润地区、半干旱地区、干旱地区</p>
+		</section>
+
+		<section>
+		<p>8．某人北京时间10：00乘飞机从北京出发，飞行了7个小时后抵达某城市，此时该城市当地区时为11：00，则该城市位于 </p>
+		     　　<p  > A．东七区  </p> 
+                                          <p>  B．西七区</p>         
+                                          <p class="fragment highlight-red">C．东二区</p>
+                                          <p > D．西十一区</p>
+		</section>
+  
+                      <section>
+		<h5> 读某城市建成区现状示意图（图2）和该城市3个年份建成区扩展示意图（图3），箭头
+表示河流流向。读图并结合所学知识，完成9-11题。 </h5>
+                <p> 9．据图判断，该城市的空间扩展方向主要是 </p>
+                <p  >A．南北方向  </p> 
+                                          <p  > B．东西方向</p>         
+                                          <p class="fragment highlight-red">C．东北一西南方向</p>
+                                          <p> D．西北一东南方向</p>
+                                           <img  data-src="pic/2013gdhk/image002.jpg" alt="" style="position: absolute;left:500px;top:250px;width: 500px;">
+		</section>
+       
+　             <section>
+		<p>    10．影响该城市空间扩展方向的最主要因素是  </p>
+		     　　<p  >A．铁路  </p> 
+                                          <p  > B．高速公路 </p>         
+                                          <p>C．风向 </p>
+                                          <p class="fragment highlight-red">  D．河流</p>
+                                               <img  data-src="pic/2013gdhk/image002.jpg" alt="" style="position: absolute;left:500px;top:250px;width: 500px;">
+		</section>
+  
+    　　　 <section>
+		<p> 11．图2扣适合在甲地布局的工厂是 </p>
+		     　　<p   class="fragment highlight-red">A．自来水厂</p> 
+                                          <p  >B．电镀厂</p>         
+                                          <p>C．化工厂 </p>
+                                          <p > D．有色金属冶炼厂</p>
+                                           <img  data-src="pic/2013gdhk/image002.jpg" alt="" style="position: absolute;left:500px;top:250px;width: 500px;">
+		</section>
+      
+        　 <section>
+		<p> 12．在干旱、半干旱地区，农业发展的主要限制性因素是 </p>
+		     　　<p >A．地形 </p> 
+                                          <p  >B．土壤</p>         
+                                          <p class="fragment highlight-red"> C．水源 </p>
+                                          <p > D．市场</p>
+		</section>
+  
+           <section>
+		<p>图4是某地种植 X、Y、Z三种农产品的利润与城市距离的关系图。读图并结合所学知识，完成13—15题。 </p>
+                <p> 13．在距城市20-60km。</p>
+                   <p>  范围内，利润最高的农产品是  </p>
+                <p  class="fragment highlight-red"> A．X   </p> 
+                                          <p  > B．Y </p>         
+                                          <p> C．Z</p>
+                                          <p >  D．X、Y、Z</p>
+                                         <img  data-src="pic/2013gdhk/image003.jpg" alt="" style="position: absolute;left:500px;top:150px;width: 400px;">
+		</section>
+ 
+   <section>
+                <p> 14．X、Y、Z可能分别为  </p>
+		     　　<p  class="fragment highlight-red">A．鲜奶、花卉、粮食 </p> 
+                                          <p  >  B．粮食、鲜奶、花卉 </p>         
+                                          <p> C．粮食、花卉、鲜奶 </p>
+                                          <p >  D．鲜奶、粮食、花卉</p>
+                                          <img  data-src="pic/2013gdhk/image003.jpg" alt="" style="position: absolute;left:500px;top:150px;width: 500px;">
+                               </section>    
+     		
+         <section>
+       
+                    <p> 15．影响Y布局的主要区位因素是</p>
+		     　　<p  > A．水源	  </p> 
+                                          <p  class="fragment highlight-red">B．市场</p>         
+                                          <p>  C．土壤 </p>
+                                          <p >  D．地形  </p>
+                                           <img  data-src="pic/2013gdhk/image003.jpg" alt="" style="position: absolute;left:500px;top:100px;width: 500px;">
+                               </section>   
+       
+              <section>
+                         <p>16．我国不同补给类型的河流，其汛期出现的季节不同。一般规律是 </p>
+<p  >A．以湖泊水补给为主的河流，汛期主要出现在春季 </p> 
+                                          <p class="fragment highlight-red" >B．以高山冰雪融水补给为主的河流，汛期主要出现在夏季 </p>         
+                                          <p> C．以地下水补给为主的河流，汛期主要出现在秋季</p>
+                                          <p >  D．以雨水补给为主的河流，汛期主要出现在冬季 </p>
+                                        </section>   
+   
+      <section>
+                         <p>  下表为某城市多年平均气温一降水统计数据。据此并结合所学知识，完成17—18题。 </p>
+                         <table>
+                             <tr><th>月份</th><th>1月</th><th>4月</th><th>7月</th><th>10月</th><th>1—12月</th></tr>
+                             <tr><th>月均温(℃)</th><th>13.3</th><th>18.0</th><th>25.7</th><th>22.7</th><th>19.9</th></tr>
+                             <tr><th>月降水量(mm)</th><th>190.9</th><th>46.3</th><th>0.3</th><th>60.2</th><th>825.5</th></tr>
+                         </table>
+                         
+            </section>   
+          
+          <section>
+                         <p>  17．该城市所属气候类型为 </p>
+		     　　<p  class="fragment highlight-red">A．地中海气候   </p> 
+                                          <p  >B．热带草原气候 </p>         
+                                          <p > C．温带大陆性气候   </p>
+                                          <p >  D．温带海洋性气候  </p>
+                         </section>
+　　	
+           <section>
+                         <p>18．该市最适宜种植的水果有</p>
+                             　　<p  >A．荔枝 </p> 
+                                          <p  >B．椰子  </p>         
+                                          <p > C．香蕉 </p>
+                                          <p class="fragment highlight-red" >  D．葡萄 </p>
+                                        </section>   
+
+           <section>
+                             <p> 19．工业布局的一般原则有 </p>
+                          <p  >A．规模大、对空气有污染的工业应布局在中央商务区</p> 
+                                          <p  class="fragment highlight-red">B．规模小、基本无污染的工业可以少量布局在城区 </p>         
+                                          <p >C．污染严重的企业可布局在城市边缘或近郊区 </p>
+                                          <p  >D．大气污染严重的企业应布局在当地盛行风向的上风向 </p>
+                               </section>
+    
+            <section>
+                         <h5>  20．图5所示各组T业部门中，劳动力为主导布局因素的是 </h5>
+                          <p  >　A．① </p> 
+                                          <p  class="fragment highlight-red">B．② </p>         
+                                          <p >C．③ </p>
+                                          <p  > D．④     </p>
+                                          <img  data-src="pic/2013gdhk/image004.jpg" alt="" style="position: absolute;left:500px;top:100px;width: 500px;">
+                               </section>
+    
+<section>
+                         <h5>  21．下列工业企业的区位选择对大气环境质量要求较高的是 </h5>
+                          <p  class="fragment highlight-red">　 A．精密光学仪器厂  </p> 
+                                          <p  >B．服装厂</p>         
+                                          <p >C．机械厂</p>
+                                          <p  >D．钢铁厂</p>
+                                   </section>
+<section>
+                         <h5>22．创意产业是指运用创造性智慧进行研究、开发、生产、交易的各种行业和环节的总和。 影响创意产业区位选择的最主要因素是</h5>
+                          <p  >　 A．原材料  </p> 
+                                          <p  >B．便利交通</p>         
+                                          <p >C．优惠政策 </p>
+                                          <p  class="fragment highlight-red">D．高素质人才</p>
+                                   </section>
+<section>
+                         <h5>23．下列现象反映由沿海向内陆的地域分异规律(经度地带性)的是</h5>
+                          <p  >　A．塔里木盆地的绿洲 </p> 
+                                          <p  >B．横断山区由山麓到山顶的植被变化</p>         
+                                          <p class="fragment highlight-red">C．北京到乌鲁木齐的植被变化  </p>
+                                          <p  >D．海口到哈尔滨的植被变化</p>
+                                   </section>
+ <section>
+                         <h5> 24．珠江三角洲地区所属的自然带类型是</h5>
+                          <p  >  A．热带雨林带 </p> 
+                                          <p  >B．亚热带常绿硬叶林带</p>         
+                                          <p >C．温带落叶阔叶林带 </p>
+                                          <p  class="fragment highlight-red">D．亚热带常绿阔叶林带</p>
+                                   </section>
+          <section>
+                         <h5>  25．2011年9月29日，第17号强台风“纳沙”在海南沿海登陆。台风“纳沙”所属的天气系统是</h5>
+                          <p  class="fragment highlight-red">  A．气旋 </p> 
+                                          <p  >B．暖锋 </p>         
+                                          <p >C．反气旋 </p>
+                                          <p  > D．冷锋</p>
+                                   </section>
+   
+<section>
+                         <h5> 26．能在短时间内获得地面植被分布信息的技术手段是</h5>
+                          <p  class="fragment highlight-red">  A．遥感  </p> 
+                                          <p  > B．地理信息系统 </p>         
+                                          <p >C．全球定位系统 </p>
+                                          <p  >  D．通信技术</p>
+                                   </section>
+               <section>
+                         <h5> 图6为某企业集团生态产业园区的生产联系示意图。据此并结合所学知识，完成27—28。</h5>
+                          <p  > 27．影响制糖厂布局的主导因素是</p>  
+                          <p  >  A．技术 </p> 
+                                          <p  >B．能源 </p>         
+                                          <p class="fragment highlight-red">C．原料  </p>
+                                          <p  > D．市场</p>
+                                          <img  data-src="pic/2013gdhk/image005.jpg" alt="" style="position: absolute;left:500px;top:300px;width: 450px;">
+                                   </section>
+                  <section>
+                         <h5> 28．下列描述符合该生态产业园区实际的是</h5>
+                          <p  >A．企业的集聚避免了市场的竞争 </p> 
+                                          <p  >B．技术协作带来了企业的集聚 </p>         
+                                          <p class="fragment highlight-red">C．企业彼此之问形成了生产上的联系 </p>
+                                          <p  >D．第一产业和第二产业之问不存在物质循环</p>
+                                          <img  data-src="pic/2013gdhk/image005.jpg" alt="" style="position: absolute;left:450px;top:350px;width: 500px;">
+                                   </section>
+             
+                   <section>
+                         <h5> 29．可能含有完整古生物化石的岩石是</h5>
+                          <p  >A．岩浆岩 </p> 
+                                          <p  >B．变质岩 </p>         
+                                          <p >C．花岗岩 </p>
+                                          <p  class="fragment highlight-red">D．沉积岩</p>
+                   </section>   
+    
+        <section>
+                         <h5>生态建设是促进城市可持续发展的必然选择。读图7并结合所学知识，完成30-31题。</h5>
+                          <p  >30．图中①②③④四类城市发展模式，最不可取的是 </p>
+                          <p  >A．①  </p>
+                                          <p  >B．② </p>         
+                                          <p >C．③ </p>
+                                          <p class="fragment highlight-red">D．④</p>
+                      <img  data-src="pic/2013gdhk/image006.jpg" alt="" style="position: absolute;left:500px;top:180px;width: 500px;">
+                   </section>  
+    <section>
+                         <p  >31．生态城市建设的核心是协调好社会经济发展与生态环  境质量之间的关系，这突出体现了可持续发展的</p>
+                          <p  >A．共同性原则 </p>
+                                          <p  >B．公平性原则</p>         
+                                          <p class="fragment highlight-red"> C．持续性原则  </p>
+                                          <p  > D．经济性原则</p>
+                     <img  data-src="pic/2013gdhk/image006.jpg" alt="" style="position: absolute;left:500px;top:180px;width: 500px;">
+                   </section>  
+   <section>
+                         <p  >32．太阳活动对地球的影响可能</p>
+                          <p  >A．引发台风和海啸</p>
+                                          <p  class="fragment highlight-red"> B．引发干旱、洪涝等灾害</p>         
+                                          <p > C．使青藏高原海拔升高  </p>
+                                          <p  >  D．加剧酸雨危害</p>
+                          </section>  
+           <section>
+                         <p  >33．5000 E大米从辽宁大连运到广州，最经济实惠的运输方式是</p>
+                          <p  >A．铁路</p>
+                                          <p  >B．公路</p>         
+                                          <p class="fragment highlight-red"> C．水运   </p>
+                                          <p  >  D．航空</p>
+                     </section>  
+      
+   <section>
+                         <p  >34．观光农业是近年来兴起的一种农业与旅游业交叉的新兴产业。发展观光农业有利于</p>
+                          <p  > A．提高粮食产量</p>
+                                          <p  class="fragment highlight-red">B．增加农民收入</p>         
+                                          <p > C．改良农产品品质   </p>
+                                          <p  > D．促成一、二产业结合</p>
+                     </section>  
+    
+   <section>
+       <h5>图8为世界部分地区气压带、风带位置示意图，箭头表示风向。读图并结合所学知识，完成35-37：</h5>
+                         <p  >35．图中M地的气候类型是</p>
+                          <p  >A．地中海气候</p>
+                                          <p  class="fragment highlight-red">B．亚热带季风气候</p>         
+                                          <p > C．热带雨林气候 </p>
+                                          <p  >D．温带海洋性气候</p>
+                                           <img  data-src="pic/2013gdhk/image007.jpg" alt="" style="position: absolute;left:520px;top:250px;width: 500px;">
+                     </section>  
+   <section>
+                <p  >36．此时江苏省正值</p>
+                          <p  >A．春季</p>
+                                          <p  class="fragment highlight-red"> B．夏季</p>         
+                                          <p >  C．秋季  </p>
+                                          <p  >  D．冬季</p>
+                                           <img  data-src="pic/2013gdhk/image007.jpg" alt="" style="position: absolute;left:520px;top:250px;width: 500px;">
+                     </section> 
+   
+  <section>
+                <p  >37．图中M地气候的成因是</p>
+                          <p  >A．气压带、风带的位置移动</p>
+                                          <p  class="fragment highlight-red"> B．海陆热力性质差异</p>         
+                                          <p >C．常年受副热带高气压控制 </p>
+                                          <p  >  D．终年受西风带的影响</p>
+                                           <img  data-src="pic/2013gdhk/image007.jpg" alt="" style="position: absolute;left:520px;top:250px;width: 500px;">
+                     </section> 
+        
+           <section>
+                <p  >38．影响秦岭南北自然带差异的主要自然因素是</p>
+                          <p  class="fragment highlight-red"> A．热量和降水</p>
+                                          <p  > B．光照和风速</p>         
+                                          <p >  C．径流和蒸发  </p>
+                                          <p  >  D．植被和土壤</p>
+                            </section> 
+   
+           <section>
+                <p  >  39．下列关于环境承载力描述错误的是</p>
+                          <p  >A．环境承载力反映了区域地理环境对人口的承载能力</p>
+                                          <p  class="fragment highlight-red">B．环境承载力在区域面积一定的情况下是恒定不变的</p>         
+                                          <p > C．环境承载力会随着科技的发展而逐渐提高  </p>
+                                          <p  > D．一定条件下环境承载力随着空间的扩大而增大</p>
+          </section> 
+    
+             <section>
+                 <h5> 某时广东某地(23°N，113°E)学生在操场测得旗杆影子为一天中最短。据此并结合所学知识，完成40—41题。</h5>
+                <p  >  40．此时，北京时间为</p>
+                          <p  > A．12：00</p>
+                                          <p  >B．12：16</p>         
+                                          <p class="fragment highlight-red"> C．12：28  </p>
+                                          <p  > D．11：32</p>
+          </section> 
+ 
+                 <section>
+                <p  > 41．此地一年中正午太阳高度角最大值为</p>
+                          <p  >A．23°26′</p>
+                                          <p  > B．66°34′</p>         
+                                          <p > C．90°  </p>
+                                          <p class="fragment highlight-red" > D．89°34′</p>
+          </section> 
+    
+                 <section>
+                <p  >  42．不同时期人地关系的状况是</p>
+                          <p  >A．采猎文明时期，人类不受地理环境制约</p>
+                                          <p  >B．农业文明时期，人地关系全面恶化</p>         
+                                          <p > C．工业文明时期，人地关系初现矛盾 </p>
+                                          <p   class="fragment highlight-red"> D．后工业文明时期，人地关系走向协调</p>
+          </section> 
+  
+                <section>
+                <p  > 43．霜冻多出现在晚秋或冬季晴朗的夜晚，主要是因为此时</p>
+                          <p  >A．地面辐射弱</p>
+                                          <p >B．太阳辐射强</p>         
+                                          <p > C．大气反射强 </p>
+                                          <p  class="fragment highlight-red">  D．大气逆辐射弱</p>
+          </section>
+
+                          <section>
+                <p  >  图9为太阳系中公转轨道相邻的三大行星相对位置示意图。读图并结合所学知识，完44-45题。</p>
+                          <p  class="fragment highlight-red">A．是北极科考的黄金季节</p>
+                                          <p  >B．地球处于近日点附近</p>         
+                                          <p >C．我国从南向北白昼越来越短 </p>
+                                          <p  >D．北京正午太阳高度角达最小值 </p>
+                                           <img  data-src="pic/2013gdhk/image008.jpg" alt="" style="position: absolute;left:620px;top:250px;width: 500px;">
+          </section>
+   
+                          <section>
+                <p  >  45．与①、②行星相比，地球上存在生命的条件有</p>
+                          <p  class="fragment highlight-red">A．适宜的大气厚度和大气成分</p>
+                                          <p  >B．太阳辐射</p>         
+                                          <p >C．复杂的地形和岩石圈   </p>
+                                          <p  >  D．地震和火山活动</p>
+                                          <img  data-src="pic/2013gdhk/image008.jpg" alt="" style="position: absolute;left:520px;top:250px;width: 500px;">
+          </section>
+ 
+                          <section>
+                <p  > 46．聚落的类型、分布、规模与该区域的地理环境特征有密切关系。以下聚落形态与区域相匹配的是</p>
+                          <p   class="fragment highlight-red">A．网格状聚落——干旱地</p>
+                                          <p  >B．零散小聚落——平原地区</p>         
+                                          <p > C．条带状聚落——河谷地 </p>
+                                          <p  >  D．团块状聚落——高山地区</p>
+          </section>
+ 
+                          <section>
+                <p  >  47．某村因周边森林被伐，泉水干涸，后来植树造林、封山育林，泉水重现。这体现了地理环境的</p>
+                          <p class="fragment highlight-red" >A．整体性 </p>
+                                          <p >B．差异性</p>         
+                                          <p > C．稳定性 </p>
+                                          <p  > D．普遍性</p>
+          </section>
+                          <section>
+                <p  >  48．到南极大陆进行科考最佳的季节是</p>
+                          <p   class="fragment highlight-red">A．北半球冬季</p>
+                                          <p  >B．南半球冬季</p>         
+                                          <p > C．北半球春季 </p>
+                                          <p  >  D．南半球春季</p>
+          </section>
+
+                          <section>
+                <p  > 图10是某海区表层海水等温线分布示意图，甲为洋流流向。读图并结合所学知识，完成49—50题。</p>
+                          <p  >49．该区域所在半球和洋流性质分别是</p>
+                           <p  >A．北半球、暖流</p>
+                                          <p >B．北半球、寒流</p>         
+                                          <p >C．南半球、暖流 </p>
+                                          <p class="fragment highlight-red" >D．南半球、寒流</p>
+                                           <img  data-src="pic/2013gdhk/image009.jpg" alt="" style="position: absolute;left:620px;top:250px;width: 400px;">
+          </section>
+
+                          <section>
+                            <p  >50．该洋流对沿岸气候的影响是</p>
+                           <p  >A．增温、增湿</p>
+                                          <p  > B．增温、减湿</p>         
+                                          <p >C．降温、增湿 </p>
+                                          <p  class="fragment highlight-red">D．降温、减湿</p>
+                                                  <img  data-src="pic/2013gdhk/image009.jpg" alt="" style="position: absolute;left:620px;top:250px;width: 400px;">
+          </section>
+  
+                          <section>
+                      <p  >51．目前，我国人口迁移的最主要目的是追求</p>
+                           <p  >A．更高的社会地位 </p>
+                                          <p  >  B．更优的自然环境</p>         
+                                          <p >C．更多的休闲时间   </p>
+                                          <p class="fragment highlight-red" >D．更高的经济待遇</p>
+                   </section>
+   
+                              <section>
+                      <p  > 52．一般情况下，大型购物中心应布局在</p>
+                           <p  >A．人口密度大、消费水平低的地 </p>
+                                          <p  class="fragment highlight-red"> B．人口密度大、消费水平高的地区</p>         
+                                          <p >C．人口密度小、消费水平低的地区   </p>
+                                          <p  >D．人口密度小、消费水平高的地区</p>
+                   </section>
+   
+          <section>
+                      <p  >53．广东沿海地区在每年三、四月份的某些时段，室内的墙壁、地面会出现“冒水”现象，人们称之为“回南天”。“回南天”的形成原因是</p>
+                           <p  class="fragment highlight-red">A．暖湿气流侵入</p>
+                                          <p  >B．寒潮过境</p>         
+                                          <p >C．台风即将来临</p>
+                                          <p  >D．冷空气南下</p>
+                   </section>
+  
+                                    <section>
+                      <p  >54．下列环境问题在柴达木盆地发生概率最大的是</p>
+                           <p  >A．酸雨</p>
+                                          <p  > B．赤潮</p>         
+                                          <p > C．水土流失</p>
+                                          <p  class="fragment highlight-red"> D．土地荒漠化</p>
+                   </section>
+   
+                                    <section>
+                      <p  > 55．在罗布泊进行科考，可为科技工作者全天候提供地理位置信息的技术是</p>
+                           <p  >A．遥感 </p>
+                                          <p  > B．地理信息系统</p>         
+                                          <p class="fragment highlight-red">C．全球定位系统  </p>
+                                          <p  >D．管理信息系统</p>
+                   </section>
+                                    <section>
+                      <p  >56．下列区域中，受台风灾害影响较大的是</p>
+                           <p  > A．河西走廊  </p>
+                                          <p  >B．四川盆地 </p>         
+                                          <p class="fragment highlight-red">C．台湾岛 </p>
+                                          <p  >  D．河套平原</p>
+                   </section>
+                                    <section>
+                      <p  >57．每逢我国传统佳节，许多旅外华人喜欢聚集在一起。这主要受</p>
+                           <p  >A．国家政策的影响 </p>
+                                          <p  class="fragment highlight-red">  B．民族文化的影响</p>         
+                                          <p > C．交通条件的影响  </p>
+                                          <p  >D．地形气候的影响</p>
+                   </section>
+                                    <section>
+                      <p  >58．我国不同自然区的环境特征差异显著。以下描述与其对应区域相匹配的是</p>
+                           <p  class="fragment highlight-red">A．早穿棉袄午穿纱，围着火炉吃西瓜——柴达木盆地 </p>
+                                          <p  >B．夏季高温多雨，冬季寒冷干燥——青藏高原</p>         
+                                          <p >C．一山有四季，十里不同天——东北平原 </p>
+                                          <p  >D．天无三日晴，地无三尺平——长江三角洲</p>
+                                           
+                   </section>
+  
+                                    <section>
+                      <p  >图11为区域产业结构图，图中①②③表示产业发展的不同阶段。读图并结合所学知识，完成59-60题。</p>
+                           <p  >59．①阶段的基本特征是</p>
+                           <p  >A．第一产业所占比重最大 </p>
+                                          <p  class="fragment highlight-red"> B．第二产业所占比重最大</p>         
+                                          <p > C．第三产业所占比重最大 </p>
+                                          <p  >D．三大产业比重相等</p>
+                                          <img  data-src="pic/2013gdhk/image010.jpg" alt="" style="position: absolute;left:620px;top:250px;width: 400px;">
+                             
+                   </section>
+                                    <section>
+                      <p  > 60．从产业发展的一般规律来看，区域产业结构演变的顺序是</p>
+                           <p  >A．①→②→③ </p>
+                                          <p  >B．②→①→③</p>         
+                                          <p  class="fragment highlight-red">C．③→①→②</p>
+                                          <p  >D．③→②→① </p>
+                  <img  data-src="pic/2013gdhk/image010.jpg" alt="" style="position: absolute;left:520px;top:250px;width: 400px;">
+                   </section> 
+        
+                                    <section>
+                      <p  > 61．大面积砍伐森林可能引发的环境问题有(双选)</p>
+                           <p  > A．酸雨污染蔓延 </p>
+                                          <p >B．臭氧层空洞扩大</p>         
+                                          <p class="fragment highlight-red">C．水土流失加剧 </p>
+                                          <p  class="fragment highlight-red"> D．生物多样性减少</p>
+                   </section>
+                                    <section>
+                      <p  >62．近十年来，我国城市化发展迅速，主要表现在</p>
+                           <p  >A．城市空心化日益明显 </p>
+                                          <p  class="fragment highlight-red"> B．城市人口比重显著提高</p>         
+                                          <p > C．逆城市化现象显著   </p>
+                                          <p  class="fragment highlight-red">D．城市规模迅速扩大</p>
+                   </section>
+                                     <section>
+                      <p  >63．为减轻城市交通压力，可以采取的合理措施是</p>
+                           <p  class="fragment highlight-red">A．错开上下班时间</p>
+                                          <p  class="fragment highlight-red"> B．大力发展公共交通事业</p>         
+                                          <p > C．鼓励私人购车，解决乘车难问题 </p>
+                                          <p  >D．禁止一切外地车辆进入</p>
+                   </section>
+ 
+                                     <section>
+                      <p  >洞庭湖位于长江中游。在同样的水位线，1954年容积为314亿立方米，1998年容积为170亿立方米。据此并结合所学知识，完成64—65题。</p>
+                           <p  >64．洞庭湖对长江流域自然环境的影响主要有 </p>
+                            <p  >A．减少长江中游枯水期径流量  </p>
+                                          <p  class="fragment highlight-red"> B．削减长江下游汛期洪峰流量</p>         
+                                          <p > C．增大长江上游洪水期径流量  </p>
+                                          <p  class="fragment highlight-red">D．调节湖区周围局地小气候</p>
+                   </section>
+                                     <section>
+                      <p  >65．引起洞庭湖蓄水能力变化的主要原因可能是</p>
+                           <p  class="fragment highlight-red">A．入湖泥沙增多 </p>
+                                          <p > B．引水灌溉</p>         
+                                          <p > C．上游修建水库  </p>
+                                          <p  class="fragment highlight-red"> D．围湖造田</p>
+                   </section>
+                                     <section>
+                      <p  >66．与火电相比，水电的优点是</p>
+                           <p  class="fragment highlight-red">A．可再生 </p>
+                                          <p  > B．投资少</p>         
+                                          <p class="fragment highlight-red"> C．清洁   </p>
+                                          <p  > D．受气候影响小</p>
+                   </section>
+ 
+                                     <section>
+                      <p  > 67．农业生产与地理环境密切相关。下列组合合理的是</p>
+                           <p  >A．四川盆地——大牧场放牧业 </p>
+                                          <p  class="fragment highlight-red"> B．宁夏平原——灌溉农业</p>         
+                                          <p class="fragment highlight-red">C．长江中下游平原——水稻种植业</p>
+                                          <p  > D．鄱阳湖平原——绿洲农业</p>
+                   </section>
+                                     <section>
+                      <p  >68．近年来，珠江三角洲的玩具制造厂向江西转移的主要原因是</p>
+                           <p  class="fragment highlight-red">A．政策更加优惠 </p>
+                                          <p  class="fragment highlight-red">  B．土地租金更低</p>         
+                                          <p > C．市场更加广阔   </p>
+                                          <p  >D．临近技术中心</p>
+                   </section>
+          
+                                     <section>
+                      <p  >69．下列地貌以风力作用为主要成因的是</p>
+                           <p  class="fragment highlight-red">A .A</p>
+                                          <p  > B．B</p>         
+                                          <p class="fragment highlight-red"> C．C   </p>
+                                          <p  >D．D</p>
+                                          <img  data-src="pic/2013gdhk/image011.jpg" alt="" style="position: absolute;left:200px;top:250px;width: 800px;">
+                   </section>
+          
+                 <section>
+                      <p  >70．适合我国西北地区农业发展的措施有</p>
+                           <p  >A．人工降雨，推广水稻种植  </p>
+                                          <p  >  B．开挖鱼塘，发展水产养殖</p>         
+                                          <p class="fragment highlight-red"> C．因地制宜，调整农林牧比重</p>
+                                          <p  class="fragment highlight-red"> D．利用光照，发展特色农业</p>
+                   </section>
+          
+     		</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+</html>

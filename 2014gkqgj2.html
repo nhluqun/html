@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>2014高考地理（全国卷2） </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+                
+    
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){ 
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+    
+</script> --> 
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" > 
+                                                 <input type="text" name="bj" value="1" /> 
+                                                 <input type="submit" name="submit" value="点名" /> 
+                                </form></div>-->
+                            
+                                <div id="output1" style="position: absolute;right:960px;top:530px;width:220px;color:black"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">2014高考地理（全国卷2） </h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+                                        
+					<p style="text-align: center">
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="11" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+<p> 珠江三角洲某中心城市周边的农民竞相在自家的宅基地建起了“握手楼”（图1）据此完成1～2题。</P>
+<p>1．农民建“握手楼”的直接目的是</P>
+	<p >A．吸引外来人口定居</p>
+<p >B．吸引城市周末度假</P>
+<p >C．增加自住房面积</P>
+<p class="fragment highlight-red">D．出租房屋增加收入</P>
+		<img  data-src="pic/2014gkqgj2/image001.jpg" alt="" style="position: absolute;left:400px;top:200px;width:400px;">
+		</section>
+<section>
+	<p>【解析】  1、材料信息：地址位于珠三角洲城市周边，人物为农民，事物为“握手楼”（图片信息显示楼较高、密集）。珠三角经济发达、劳动力需求量大，外地来的打工仔非常多，当地农民建房屋目的肯定是为了自己的经济发展，答案很明显为D.出租房屋增加收入。AB选项太伟大，C选项太土豪（浪费）。</p>
+</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>2．“握手楼”的修建反映该中心城市</P>
+					<p >A．居住人口减少</p>
+					<p class="fragment highlight-red">B．城市房价昂贵 </P>
+					<p >C．人居环境恶化 </P>
+					<p >D．城区不断扩大</P>
+					<img  data-src="pic/2014gkqgj2/image001.jpg" alt="" style="position: absolute;left:300px;top:200px;width:600px;">
+				</section>
+	<section>
+		<p style="color:red;">【解析】 2、城市中的商品房（毛坯）价格约20000元一平米，价格昂贵，打工仔基本买（租）不起；在城市周边的农民自建楼价格相对较低，而且交通也较为便利，与打工仔的工资收入和生活开支契合，因此打工仔多选择郊区农民的“握手楼”，当地农民也就成为包租公（婆）。AC选项的情况为逆城市化现象，中国目前处于郊区城市化阶段，城区面积不断扩大，因此D错误。</p>
+	</section>
+	<section>
+		<p style="color:red;">【考察能力】读图能力（获取信息）：观察图片反映事物的特征（大小、高低、数量、密度）
+
+			【地理原理】 1、人们从事第一产业、第二产业（建房）、第三产业（出租房）的目的都是为了经济发展、社会发展、生态发展。 2、我国城市化过程中出现的问题（住房、交通、就业、污染、人口），及其解决措施。</p>
+	</section>
+</section>
+
+
+				<section>
+				<section>
+					<p>总部位于江苏徐州（约34°N，117°E）的某企业承接了家国（图2）价值7.446亿美元的工程机械订单。据此完成3-5题。</p>
+								<p>3.甲国位于（   ）</P>
+					<p >A.欧洲</p>
+					<p > B.非洲 </P>
+					<p >C.北美洲 </P>
+					<p class="fragment highlight-red"> D.南美洲</P>
+
+					<img  data-src="pic/2014gkqgj2/image002.gif" alt="" style="position: absolute;left:300px;top:200px;width:400px;">
+
+						</section>
+					<section>
+						<p style="color:red;">【解析】材料显示了徐州的经纬度（约34°N，117°E），地图显示了甲国的经纬度（西经60—70°，赤道—北纬10°）
+
+							3、根据甲国的经纬度位置可确定是南美洲。</p>
+					</section>
+                 </section>
+
+
+				<section>
+				<section>
+<p>4.2011年6月21日，该订单的首批产品从徐州发货。这一日，徐州与甲国首都相比（    ）</p>
+
+					<p class="fragment highlight-red">A.徐州的正午太阳高度较高</p>
+					<p >B.徐州的白昼较短</p>
+					<p >C.两地正午物影方向相同  </p>
+					<p >D.两地日出方位角相同</p>
+					<img  data-src="pic/2014gkqgj2/image002.gif" alt="" style="position: absolute;left:450px;top:200px;width:400px;">
+				</section>
+					<section>
+						<p style="color:red;">【解析】4、6月21日，太阳直射北回归线附近，徐州距离太阳直射点更近，因此正午太阳高度角更大。（徐州的正午太阳高度为90°-（34°N-23.5°N）=79.5°，甲国首都的正午太阳高度为90°-（23.5°N-10°N）=76.5°），因此A正确。6月为北半球夏季，北半球越往北白昼越长，徐州位于甲国首都北方、白昼更长，B错。太阳直射点为徐州的南方，徐州正午影子朝北，太阳直射点位于甲国首都的北方，其影子朝南，C错。夏半年北半球（北极点除外）太阳东北升、西北落，但具体方位角度不同。</p>
+					</section>
+				</section>
+
+				<section>
+                 <section>
+					<p>5.该批产品运往甲过，最近的海上航线需经</P>
+					<p >A.好望角</p>
+					<p > B.苏伊士运河</P>
+					<p class="fragment highlight-red">   C.巴拿马运河</P>
+					<p >D.麦哲伦海峡</P>
+					 <img  data-src="pic/2014gkqgj2/image002.gif" alt="" style="position: absolute;left:450px;top:200px;width:400px;">
+				</section>
+					<section>
+						<p style="color:red;">5、徐州（约34°N，117°E）与甲国首都（10°N、67°W）共同位于北半球，徐州往东经度相差176°<180°，为劣弧、距离短，徐州往西经度相差184°>180°，为优弧、距离长。因此最短航线应该向东航行、穿越太平洋，经过巴拿马运河进入大西洋。而非向西航行经过印度洋再抵达大西洋，因此不会经过ABD三处。</p>
+					</section>
+					<section>
+						<p style="color:red;"> 【考察能力】  定位能力：根据材料和地图：明确两地的地理位置（经纬度位置、海陆位置）计算能力：不同地点正午太阳高度的计算、  定向能力：通过计算经度差，确定最短航线（大圆劣弧）的方向
+
+							【地理原理】  地球运动的意义（正午太阳高度的计算、正午太阳方位与影子的关系、昼夜长短的判断、  太阳在天空中方位的变化）地球的形状（最短航线）</p>
+					</section>
+
+				</section>
+				<section>
+				<section>
+<p>降水在生态系统中被分为蓝水和绿水，蓝水是形成径流的部分（包括地表径流和地下径流）；绿水是被蒸发（腾）的部分，其中被植物蒸腾的部分称为生产性绿水，被蒸发的部分被称为非生产性绿水</p>
+					<p>6.下列河流中，绿水比例最大的是</P>
+					<p class="fragment highlight-red">A.塔里木河流域</p>
+					<p >B.长江流域</P>
+					<p >C.雅鲁藏布江流域  </P>
+					<p >D.黑龙江流域</P>
+
+				</section>
+					<section>
+						<p style="color:red;"> 【解析】材料信息显示：降水落地面后，一部分形成径流（蓝水），另一部分蒸发（绿水）。蒸发分为植物蒸腾（生产性绿水）和蒸发（非生产性绿水）两部分。
+
+							6、绿水比例是指（蒸发量）除以（径流量+蒸发量）的数值，绿水比例最大是指蒸发量大、径流量小，位于西北内陆（干旱）地区的塔里木河蒸发比例最大。A正确。</p>
+					</section>
+				</section>
+
+
+				<section>
+					<section>
+						<p >7.在干旱和半干旱地区，下列措施中，使绿水中生产性绿水比重提高最多的是</P>
+					<p >A.水田改旱田</p>
+					<p >B.植树造林</P>
+					<p class="fragment highlight-red">C.覆膜种植农作物</P>
+					<p >D.修建梯田</P>
+
+				</section>
+					<section>
+						<p style="color:red;"> 【解析】7、生产性绿水比重是指（植物蒸腾）除以（植物蒸腾+蒸发），覆盖地膜可以保湿、保温、保土，减少蒸发，特别是在干旱和半干旱地区作用显著，因此C正确。而且ABD均不符合在干旱半干旱地区因地制宜发展农业的原则。</p>
+					</section>
+					<section>
+						<p style="color:red;"> 【考察能力】  获取信息并将其分类的能力比例数值的计算能力
+
+							【地理原理】  水循环的过程和环节河流的水文特征  农业生产技术（覆盖地膜）对区位因素（水源、气候）的改良。</p>
+					</section>
+			</section>
+
+				<section>
+				<section>
+
+					<p>8. 科隆群岛特有动物种属比例较大。形成这一现象的地理条件是该群岛</P>
+					<p >A. 地处赤道附近</p>
+					<p class="fragment highlight-red">B. 远离大陆</P>
+					<p >C. 构造运动强烈</P>
+					<p >D. 地形复杂</P>
+					<img  data-src="pic/2014gkqgj2/image003.gif" alt="" style="position: absolute;left:400px;top:100px;width:800px;">
+				</section>
+					<section>
+						<p style="color:red;"> 【解析】  地图信息显示科隆群岛位于赤道附近，太平洋东部、距离南美洲大陆较远，多火山。
+
+							8、结合初中知识（澳大利亚被称为“世界活化石博物馆”），可知特有动物比例大的成因是远离大陆、远离危险，动物进化缓慢而古老。B正确。火山为干扰信息，构造运动造山、造岛屿能力一流，但不造动物。海底火山附近有特有生物，但陆地上没有什么特有的火山动物，有的话只有红孩儿一人。 </p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+
+					<p>9. 科隆群岛是耐寒的企鹅和喜暖的鬣蜥的共同家园，主要因为该群岛</P>
+					<p >A. 气温日较差大</p>
+					<p >B. 处在动物迁徙路线上</P>
+					<p class="fragment highlight-red">C. 地处热带但受寒流影响</P>
+					<p >D. 气候垂直差异显著</P>
+						<img  data-src="pic/2014gkqgj2/image003.gif" alt="" style="position: absolute;left:400px;top:100px;width:800px;">
+					</section>
+					<section>
+						<p style="color:red;"> 【解析】 9、企鹅原本生活在南极地区，顺西风漂流、秘鲁寒流等洋流漂流至科隆群岛，发现气候适宜（不是很热）、鱼类丰富，于是在此定居（逆洋流回南极不太现实）。老鼠、蜥蜴喜暖，出现在热带地区很科学。C正确。</p>
+					</section>
+					<section>
+						<p style="color:red;">  【考察能力】  读图能力（定位、估算距离）回顾初中地理知识的能力
+
+							【地理原理】洋流对气候的影响</p>
+					</section>
+				</section>
+				<section>
+				<section>
+<p>图4示意某岛的地理位置。读读图4，完成10～11题。</p>
+					<p>10. 图示岛屿西南部降水丰沛，主要是因为
+						①盛行西风          ②地形抬升          ③暖流增湿          ④反气旋活跃</P>
+					<p class="fragment highlight-red">A. ①② </p>
+					<p >B. ②③</P>
+					<p >C. ③④ </P>
+					<p >D. ①④</P>
+					<img  data-src="pic/2014gkqgj2/image004.jpg" alt="" style="position: absolute;left:400px;top:250px;width:500px;">
+
+				</section>
+					<section>
+						<p style="color:red;">【解析】  地图信息显示该岛纬度大部分位于南纬42°—46°，地处太平洋中，中部山脉海拔较高（超过3000米）、大致呈东北—西南走向分布，河流、湖泊众多。
+
+							10、南纬42°—46°，地处西风带，来自海洋的湿润气流受高达山脉阻挡抬升，形成地形雨，因此降水丰富。岛屿西南部受西风漂流（寒流）影响较大，而非暖流。反气旋（高压）控制、降水少，错误。</p>
+					</section>
+				</section>
+				<section>
+                <section>
+					<p>11. 下列农业生产类型中，最适宜在图示岛屿发展的是</P>
+					<p >A. 水田农业</p>
+					<p >B.迁移农业</P>
+					<p >C. 种植园农业 </P>
+					<p class="fragment highlight-red">D.畜牧业</P>
+					<img  data-src="pic/2014gkqgj2/image004.jpg" alt="" style="position: absolute;left:400px;top:250px;width:500px;">
+				</section>
+					<section>
+						<p style="color:red;">11、降水丰沛、气候温和（南纬42°—46°，岛屿、气候海洋性强），多山地，适合草类生长，因地制宜发展畜牧业最合适。如果能判断出是新西兰，则直接选D。</p>
+					</section>
+					<section>
+						<p style="color:red;"> 【考察能力】读图能力（定位、定气压带风带、洋流、判断地形、根据河流和湖泊的数量判断降水的多少）
+
+							【地理原理】  降水的影响因素（纬度、海陆、地形、大气环流、洋流、） 农业地域类型的分布</p>
+					</section>
+				</section>
+
+					<section>
+
+						<p>36. （22分）阅读图文材料，完成下列要求。</p>
+<p>36．（22分）河流的侵蚀、沉积及沼泽的吸收（附）影响河流泥沙和营养物质含量，水体中营养物质含量影响浮游生物量，与水温共同制约鱼类资源数量。图7所示的西西伯利亚平原地势低平，冻土发育，沼泽广布</p>
+					</section>
+
+
+<section>
+					<section>
+					<p>（1）分析西西伯利亚平原沼泽广布的原因（8分）</p>
+						<img  data-src="pic/2014gkqgj2/image005.jpg" alt="" style="position: absolute;left:200px;top:250px;width:500px;">
+					<p class="fragment fade-in" style="color:red;">（1）（8分）
+						地势低平，排水不畅；
+						气温低，蒸发量小；
+						下部土层冻结，阻滞水分下渗；
+						（凌汛等导致）河水泛滥</p>
+				</section>
+
+</section>
+
+
+				<section>
+					<section>
+
+						<p>（2）分析叶尼塞河泥沙含量较多，而鄂毕河泥沙含量较少的原因。（6分）</p>
+						<p class="fragment fade-in" style="color:red;">（2）（6分）
+							叶尼塞河支流多流经中西伯利亚高原，（河床比降大）流速快，侵蚀强，增加了河流含沙量。鄂毕河主要流经平原，流速慢，泥沙沉积，含沙量小</p>
+
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+
+						<p>（3）通常，大河河口的鱼类资源丰富，但鄂毕河河口鱼类资源相对较少。说明鄂毕河河口鱼类资源较少的原因。（8分）</p>
+						<p class="fragment fade-in" style="color:red;">（3）（8分）
+							鄂毕河河口区纬度高，水温低，鱼类生长慢。
+							结冰期长，鱼类存活率偏低。
+							鄂毕河流经沼泽，营养物质被植物吸收，河水中营养物质严重缺乏，不利于浮游生物生长。北冰洋营养物质和饵料较为贫乏。</p>
+					</section>
+
+				</section>
+
+				<section>
+
+					<p>37.（24分）阅读图文材料，完成下列要求。</p>
+					<p> 建三江位于三江平原腹地，于1957年开始垦荒，日前面积1.24万平方千米，人口20多万，这里空气清新，水源丰富且水质优良，土壤肥沃。近年来，建三江重点种植水稻，有“中国绿色米都”之称。建三江采用现代技术科学生产，如定点监测土壤肥力并精准施肥。图8示意建三江的位置和范围。</p>
+				</section>
+
+				<section>
+					<section>
+
+						<p>（1）分析三江平原环境质量优良的原因（6分）</p>
+						<p class="fragment fade-in" style="color:red;">（1）（6分）
+							开垦历史短，人类对环境的影响较弱；
+							地广人稀，工矿业、城镇、交通车辆等较少，
+							人类活动排放的废弃物（废气、废水、废渣）等较少，环境污染轻微</p>
+						<img  data-src="pic/2014gkqgj2/image006.gif" alt="" style="position: absolute;left:200px;top:250px;width:500px;">
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+
+						<p>（2）分析建三江农作物病虫害较少的气候原因（6分）</p>
+						<p class="fragment fade-in" style="color:red;">（2）（6分）
+							纬度高（48°N附近），冬季寒冷而漫长，害虫（虫卵）不易越冬；
+							夏季气温日较差大，日低温较低，不利于虫害生存和繁殖</p>
+
+					</section>
+
+				</section>
+				<section>
+					<section>
+
+						<p>（3）简述建三江水稻种植过程中化肥施用量较少的原因（4分）</p>
+						<p class="fragment fade-in" style="color:red;">（3）（4分）
+							土壤肥沃（肥力高）；
+							精准施肥。
+							控制施肥量</p>
+
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+
+						<p>（4）建三江被称为“中国绿色米都”。请说明建三江获此美誉的理由（8分）</p>
+						<p class="fragment fade-in" style="color:red;">（4）（8分）
+							环境质量优良（污染少）。
+							化肥、农药施用量少，生产绿色稻米；
+							成产技术先进，具有示范作用；
+							生产规模大；单
+							位面积产量高，总产量大；
+							商品率高等。</p>
+
+					</section>
+
+				</section>
+
+
+					<section>
+						<p>某学习小组在探讨“老工业区如何转型”的活动中，发现德国鲁尔区在转型过程中，利用原有的生产设备等工业遗产资源，开发了能够吸引人们了解工业文明和工业化历史，具有独特观光、休闲等功能的工业遗产旅游产品。</p>
+
+					</section>
+				<section>
+					<section>
+						<p>提出老工业区的工业遗产资源，并设计老工业区工业遗产旅游项目。</p>
+						<p class="fragment fade-in" style="color:red;">工业遗产资源：
+							老工业区的厂房、车间等建筑，一级生产设备、公益、流程、管理等工业遗产和遗迹。
+
+							工业遗产旅游项目：
+							参观老工业区的厂房、车间遗迹工业遗产博物馆；
+							利用多媒体手段再现原生产生活实景；
+							体验原生产流程等；
+							在由老厂房改造成的餐厅、酒吧、画廊等场所消费、休憩。</p>
+
+					</section>
+</section>
+
+
+
+				<section>
+						<p>43，（10分）自然灾害与防治</p>
+						<p>福建低山丘陵区是崩塌、滑坡和泥石流等地质灾害的多发区，图9示意该区域1990~2006年地质灾害各月多年平均发生的次数。</p>
+					<img  data-src="pic/2014gkqgj2/image007.gif" alt="" style="position: absolute;left:200px;top:250px;width:500px;">
+					</section>
+<section>
+						<section>
+<p>概况该区域地质灾害月际分布特点，说明6月、7月地质灾害发生次数差异的自然原因。</p>
+						<p class="fragment fade-in" style="color:red;">特点：各月都有地质灾害发生，
+							（夏季多，冬季少）5~6月相对集中，期中6月份发生次数最多。
+
+							原因：福建省低山丘陵区属亚热带季风气候区，6月，降水多，且多暴雨，易引发地质灾害；7月，受副热带高气压带控制，降水少，地质灾害发生次数减少。</p>
+
+						</section>
+
+</section>
+
+
+					<section>
+
+						<p>44、（10分）环境保护</p>
+						<p>中华秋沙鸭为我国一级重点保护鸟类，目前全国只有1000只左右，中华秋沙鸭生活在河流与小型湖泊等湿地中，主要以淡水鱼、虾等为食。以长白山某河流作为繁殖地的中华秋沙鸭种群，春季为50只左右，秋季迁徙时，数量增至200只左右。但只有近百只到达赣东北的越冬池，二第二年春季只有50余只返回繁殖地。</p>
+
+					</section>
+
+<section>
+					<section>
+
+						<p> 分析中华秋沙鸭在迁徙途中不断死亡，导致数量减少的可能原因，并提出保护对策。</p>
+						<p class="fragment fade-in" style="color:red;">可能原因：迁徙路上缺少湿地等休憩和觅食地，疲劳饥饿致死；
+							食用了被污染的鱼虾；人祸动物猎杀等。
+
+							保护对策；在迁徙路上建设与恢复湿地，使湿地间距小于单日迁徙距离；
+							治理水体污染；
+							严禁猎杀；
+							在迁徙路线上建立观测点，组织志愿者观察保护；
+							做好保护中华秋沙鸭的宣传工作等。</p>
+
+					</section>
+
+</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+
+</html>

@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>2012高考地理（全国卷1） </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+                
+    
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){ 
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+    
+</script> --> 
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" > 
+                                                 <input type="text" name="bj" value="1" /> 
+                                                 <input type="submit" name="submit" value="点名" /> 
+                                </form></div>-->
+                            
+                                <div id="output1" style="position: absolute;right:960px;top:530px;width:220px;color:black"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">2012高考地理（全国卷1） </h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+                                        
+					<p style="text-align: center">
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="11" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+<p>随着工业化、城市化的飞速发展，耕地不断被挤占，但2004年以来，我国粮食总量仍连续增长。据此完成1～3题。 </P>
+<p>1. 近年来，我国粮食总产量连续增长的主要原因是</P>
+	<p >A. 扩大了粮食播种面积</p>
+<p class="fragment highlight-red">B. 加大了农业科技投入</P>
+<p >C. 改进了农田水利设施</P>
+<p >D. 完善了粮食流通体系</P>
+
+		</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>2. 改革开放以来，下列粮食主要产区在全国商品粮食生产中的地位下降最为显著的是</P>
+					<p class="fragment highlight-red">A. 太湖平原</p>
+					<p >B. 洞庭湖平原</P>
+					<p >C. 汉江平原</P>
+					<p >D. 成都平原</P>
+
+				</section>
+
+</section>
+				<section>
+							<section>
+					<p>3. 河南省和黑龙江省都是我国产粮大省。两省相比，黑龙江省粮食商品率高的主要原因是</P>
+					<p >A. 耕地面积广 </p>
+					<p >B. 生产规模大</P>
+					<p >C. 机械化水平高</P>
+					<p class="fragment highlight-red">D. 人口较少</P>
+
+						</section>
+
+
+				</section>
+				<section>
+				<section>
+					<p>图1示意某流域水系分布（a）和该流域内一次局地暴雨前后甲、乙两水文站观测到的河流流量变化曲线（b）。读图1，完成4～5题。</p>
+					<p>4. 此次局地暴雨可能出现在图1a中的</P>
+					<p >A. ①地  </p>
+					<p > B. ②地 </p>
+					<p > C. ③ 地 </p>
+					<p class="fragment highlight-red">D. ④地</p>
+					<img  data-src="pic/2012gkqgj2/image001.gif" alt="" style="position: absolute;left:500px;top:280px;width:500px;">
+				</section>
+
+
+				</section>
+
+				<section>
+                 <section>
+					<p>5. 乙水文站洪峰流量峰值小于甲水文站，主要是因为甲，乙水文站之间</P>
+					<p >A. 河道淤积 </p>
+					<p >B. 河谷变宽 </P>
+					<p class="fragment highlight-red"> C. 湖泊分流</P>
+					<p >D. 湖水补给量减小</P>
+					 <img  data-src="pic/2012gkqgj2/image001.gif" alt="" style="position: absolute;left:500px;top:280px;width:500px;">
+				</section>
+
+
+				</section>
+				<section>
+				<section>
+					<p>读图2，完成6～7题。</p>
+					<p>6. 根据图是信息 可以推断，</P>
+					<p class="fragment highlight-red">A. 1月平均气温甲城市高于乙城市 </p>
+					<p >B. 1月平均气温甲城市低于乙城市</P>
+					<p >C. 7月平均气温甲城市高于乙城市 </P>
+					<p >D. 7月平均气温甲城市低于乙城市</P>
+					<img  data-src="pic/2012gkqgj2/image002.gif" alt="" style="position: absolute;left:580px;top:200px;width:600px;">
+				</section>
+
+				</section>
+
+
+				<section>
+					<section>
+						<p>7. 图中甲 乙两城市分别位于 </P>
+					<p >A. 关中平原，浙闽丘陵</p>
+					<p >B. 江汉平原，山东丘陵</P>
+					<p class="fragment highlight-red">C. 汉水谷地，黄淮平原 </P>
+					<p >D. 汾河谷地，松嫩平原 </P>
+						<img  data-src="pic/2012gkqgj2/image002.gif" alt="" style="position: absolute;left:400px;top:200px;width:800px;">
+				</section>
+
+			</section>
+
+				<section>
+				<section>
+<p>图3表示某区域在一定时期内剩余劳动力数量、人均工资的变化，以及甲、乙两类企业在该区域维持最低经济效益所能支付人均工资的变化，读图3，完成8～9题。</p>
+					<p>8. 由图3可以推断，该区域</P>
+					<p >A．T0年工业基础雄厚</p>
+					<p >B. T0¯～T1年吸引的工业企业类型最多</P>
+					<p class="fragment highlight-red">C. T1～T2年经历产业结构调整</P>
+					<p >D. T2年以后工业生产衰退</P>
+					<img  data-src="pic/2012gkqgj2/image003.gif" alt="" style="position: absolute;left:580px;top:180px;width:500px;">
+				</section>
+
+				</section>
+				<section>
+					<section>
+
+					<p>9. 甲、乙两类企业相比</P>
+					<p >A．甲类企业在该区域维持发展的时间更长</p>
+					<p class="fragment highlight-red">B．甲类企业趋向廉价劳动力区位</P>
+					<p >C. 乙类企业进入该区域的时间更早</P>
+					<p >D. 乙类企业产品的附加值较低 </P>
+						<img  data-src="pic/2012gkqgj2/image003.gif" alt="" style="position: absolute;left:550px;top:200px;width:500px;">
+					</section>
+
+				</section>
+				<section>
+				<section>
+<p>图4示意某小区域地形。图中等高距为100米，瀑布的落差为72米。据此完成10～11题。</p>
+					<p>10. Q地的海拔可能为</P>
+					<p >A. 90米 </p>
+					<p>B. 230米  </P>
+					<p >C. 340米</P>
+					<p class="fragment highlight-red">D. 420米</P>
+					<img  data-src="pic/2012gkqgj2/image004.gif" alt="" style="position: absolute;left:500px;top:280px;width:500px;">
+
+				</section>
+
+				</section>
+				<section>
+                <section>
+					<p>11. 桥梁附近河岸与山峰的高差最接近</P>
+					<p >A. 260米 </p>
+					<p >B. 310米</P>
+					<p class="fragment highlight-red">C. 360米</P>
+					<p >D. 410米</P>
+					<img  data-src="pic/2012gkqgj2/image004.gif" alt="" style="position: absolute;left:500px;top:280px;width:500px;">
+				</section>
+
+				</section>
+
+					<section>
+
+						<p>36.（22分）阅读图文资料，完成下列要求。</p>
+<p>红木家具广受人们的喜爱。目前，我国红木原材主要依赖进口。越南是红木原材的主要出口国。近年来，越南规定红木原材需经初加工方可出口。凭祥（位置见图6）是我国红木家具加工基地之一，近年与家具生产相关的企业开始在凭祥集聚。</p>
+					</section>
+
+
+<section>
+					<section>
+					<p>（1）说明越南限制红木原材出口的原因。（6分）</p>
+						<img  data-src="pic/2012gkqgj2/image005.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+					<p class="fragment fade-in" style="color:red;">提高原材的附加值，增加收入；
+						扩大就业；
+						保护红木（森林）资源。</p>
+				</section>
+
+</section>
+
+
+				<section>
+					<section>
+
+						<p>（2）分析凭祥成为我国红木家具加工基地的区位优势。（10分）</p>
+						<p class="fragment fade-in" style="color:red;">（地处边境）接近原料（红木）；
+							（我国）市场需求旺盛；
+							（高速公路和铁路经过）交通便捷；
+							（作为边境地区的较大城市）基础设施较完善。</p>
+						<img  data-src="pic/2012gkqgj2/image005.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+
+						<p>（3）说明与家具生产相关的企业在凭祥集聚的原因。（6分）</p>
+						<p class="fragment fade-in" style="color:red;">接近家具厂（客户），节省运输费用；
+							利于企业间人员与信息的交流，提高企业创新能力；
+							共享基础设施，节约生产成本。</p>
+					</section>
+
+				</section>
+
+
+				<section>
+					<p>37.（24分）阅读图文资料，完成下列要求。</p>
+					<p>图7所示区域的沿海地区年降水量约50毫米，东部山地雪线高度在4480～5000米之间。自20世纪90年代，该地区开始种植芦笋（生长期耗水量较大），并发展成为世界上最大的芦笋出口区。</p>
+				</section>
+
+				<section>
+					<section>
+
+						<p>（1）分析图示沿海地区气候干旱的原因。（10分）</p>
+						<p class="fragment fade-in" style="color:red;">位于热带，全年气温高，蒸发旺盛；
+							（受东部山地阻挡）处于东南信风的山地背风坡，不利降水；
+							（势力强大的）沿海寒流的减湿作用强。</p>
+						<img  data-src="pic/2012gkqgj2/image006.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+
+						<p>（2）推断图示沿海地区芦笋种植用水的来源。（6分）</p>
+						<p class="fragment fade-in" style="color:red;">地下水；冰雪融水（河水）。</p>
+						<img  data-src="pic/2012gkqgj2/image006.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+					</section>
+
+				</section>
+
+				<section>
+					<section>
+						<p>（3）你认为图示沿海地区是否应该大力发展芦笋种植，请说明理由。（8分）</p>
+						<p class="fragment fade-in" style="color:red;">观点一：应大力发展芦笋种植。
+							理由：扩大就业，增加收入，促进经济发展。
+
+							观点二：不应该大力发展芦笋种植。
+							理由：芦笋生长耗水量大，当地本来水资源缺乏，种植芦笋使当地水资源更为紧缺。</p>
+					</section>
+
+				</section>
+
+
+					<section>
+												<p>42. (10分)旅游地理 阅读图文资料，完成下列要求。</p>
+						<p>图11所示区域中的世界文化遗产，始建于公元366年，以其现存规模大、保存完好的壁画和塑像闻名于世。近年来，游客数量不断增加，对该文化遗产构成较大威胁。</p>
+					</section>
+
+					<section>
+
+						<p>（1）简述图示区域文化遗产保护较完好的自然原因。（4分）</p>
+						<p class="fragment fade-in" style="color:red;">地处内陆，气候干旱，空气干燥（利于文物保存）。</p>
+						<img  data-src="pic/2012gkqgj2/image007.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+					</section>
+
+				<section>
+
+					<p>（2）说明为保护该文化遗产应采取的措施。（6分）</p>
+					<p class="fragment fade-in" style="color:red;">合理控制游客数量；
+						实行淡旺季门票制；
+						加强监测和管理；
+						数字化和媒体展示等。</p>
+					<img  data-src="pic/2012gkqgj2/image007.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+				</section>
+
+
+				<section>
+						<p>43，（10分）自然灾害与防治</p>
+						<p>读图12，完成下列要求。
+							图12示意美国本土飓风、地震灾害的空间分布。</p>
+					<img  data-src="pic/2012gkqgj2/image008.gif" alt="" style="position: absolute;left:200px;top:200px;width:500px;">
+					</section>
+
+						<section>
+						<p>（1）判断甲、乙自然灾害的种类并说明判断的依据。（6分）</p>
+						<p class="fragment fade-in" style="color:red;">甲为地震。（西邻太平洋）地处环太平洋地震带；
+							乙为飓风。东部处在北大西洋飓风侵袭路径上；南部接近飓风风源地。</p>
+
+						</section>
+				<section>
+					<p>（2）说明为防范上述灾害应采取的措施。（4分）</p>
+					<p class="fragment fade-in" style="color:red;">加强灾害监测和预报；制定防灾应急预案；修建避难场所等工程性防御性设施；加强防灾教育和培训。</p>
+
+				</section>
+
+
+
+					<section>
+						<img  data-src="pic/2012gkqgj2/image009.gif" alt="" style="position: absolute;left:300px;top:300px;width:300px;">
+						<p>44、（10分）环境保护</p>
+						<p>阅读图文资料，完成下列要求。</p>
+
+					</section>
+
+
+					<section>
+						<p>近百年来，上海市饮用水主要水源地发生了很大变化：1910年为苏州河，1928年改至黄浦江中、下游，1978年改至黄浦江中、上游，2010年改至长江青草沙（见图13）。</p>
+						<p>（1）分析上海市饮用水主要水源地变化的原因。（4分）</p>
+						<p class="fragment fade-in" style="color:red;">水环境污染严重；
+							城市需水量增加</p>
+
+					</section>
+				<section>
+
+					<p>（2）提出保护城市水源地应采取的措施。（6分）</p>
+					<p class="fragment fade-in" style="color:red;">控制污染源，加强水质监测和日常管理，防止水污染；
+						制定污染事件的应急处理方案；
+						加强城市水环境教育，增强公众水环境保护意识；
+						强化水资源管理等。</p>
+
+				</section>
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+
+</html>

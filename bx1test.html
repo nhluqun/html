@@ -1,0 +1,447 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>必修1测试题 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+
+</script> -->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" >
+                                                 <input type="text" name="bj" value="1" />
+                                                 <input type="submit" name="submit" value="点名" />
+                                </form></div>-->
+    <div id="output1" style="position: absolute;right:160px;top:-30px;width:520px;color:white"> </div>
+
+                                <section>
+				<section>
+					<h1 style="text-align: center">必修1测试题 </h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+
+					<p style="text-align: center">
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="11" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+<p>地球是一颗既普通又特殊的行星。据此回答1、2题。</P>
+<p>1.地球具有生命生存的温度条件，并不是因为(   )</P>
+	<p>A.地球的宇宙环境稳定，日地距离适中</p>
+<p > B.地球自转周期适宜，昼夜温差较小</P>
+<p class="fragment highlight-red">C.各大行星各行其道，互不干扰 </P>
+<p > D.地球体积、质量适中，有浓密的大气</P>
+
+		</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>2.能够证明地球是太阳系中的一颗特殊行星的是(   )</P>
+					<p class="fragment highlight-red">A.地球上形成了适宜生物生存的温度条件、大气条件和液态水</p>
+					<p >B.地球恰好位于太阳系的中心位置</P>
+					<p>C.地球处在一个比较稳定和安全的宇宙环境中，利于生命形成发展</P>
+					<p >D.地球是太阳系中唯一有卫星绕转的大行星</P>
+
+				</section>
+
+		</section>
+				<section>
+							<section>
+					<p>3.(2010·江苏学业水平测试)据报道， 2010 年太阳活动出现又一个最活跃期，下列关于太阳活动的说法正确的是</P>
+					<p >A.太阳活动主要包括色球层的黑子和光球层的耀斑</p>
+					<p >B.耀斑增多表明太阳活动增强，黑子增多表明太阳活动减弱</P>
+					<p >C.2010 年 6 月下旬是北极附近观察极光的最佳时间</P>
+					<p class="fragment highlight-red">D.2010 年出现非人为因素导致的无线电短波通讯中断</P>
+
+						</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>国家天文台曾经在日面上观测到两个活动区，并且观测到一次C2.0级耀斑。据此完成4、5题。4.在日面上观测到的两个活动区是(   )</P>
+					<p class="fragment highlight-red">A.黑子</p>
+					<p >B.耀斑</p>
+					<p >C.日珥</p>
+					<p >D.太阳风</p>
+
+				</section>
+
+
+				</section>
+
+				<section>
+                 <section>
+					<p>5.观测到的这次C2.0级的耀斑发生在太阳大气层的(   )</P>
+					<p >A.光球层 </p>
+					<p class="fragment highlight-red"> B.色球层 </P>
+					<p >C.日冕层 </P>
+					<p >  D.日珥</P>
+
+				</section>
+
+				</section>
+				<section>
+				<section>
+					<p>歌曲《祈祷》中唱道：“让地球忘记了转动啊，四季少了夏秋冬；让宇宙关不了天窗，叫太阳不西沉。”据此完成6、7题。</P>
+                          <p >6.下列说法错误的是(   )</p>
+					<p >A.歌词中的“转动”指的是地球的绕日公转 </p>
+					<p >B.歌词中的“关不了天窗”是指一直处于白天</P>
+					<p class="fragment highlight-red">C.如果太阳不西沉，全球各地都会进入黑夜 </P>
+					<p >D.黄赤交角的存在是春夏秋冬更替的重要原因</P>
+
+				</section>
+
+				</section>
+			<section>
+				<section>
+
+					<p>7.下列现象不是歌词中的“转动”引起的是(   )</P>
+					<p >A.昼夜长短的变化</p>
+					<p class="fragment highlight-red"> B.昼夜现象</P>
+					<p >C.正午太阳高度的变化</P>
+					<p >D.四季更替</P>
+
+				</section>
+
+			</section>
+
+				<section>
+				<section>
+
+					<p>8.(2010·浙江学业水平测试)将一盏电灯放在桌子中央代表太阳，在离电灯大约1米远的桌边放一个地球仪代表地球，拨动地球仪模拟地球自转运动。该实验能够演示的地理现象是(   )
+①昼夜的更替              ②四季的更替
+③运动物体偏向            ④地方时差异</P>
+					<p >A.①③ </p>
+					<p class="fragment highlight-red"> B.①④</P>
+					<p >C.②③</P>
+					<p >D.②④</P>
+					<img  data-src="pic/test1/image010.jpg" alt="" style="position: absolute;left:500px;top:200px;width:400px;">
+				</section>
+
+				</section>
+				<section>
+					<section>
+					<p>读下图，完成9、10题。</P>
+<p>9.关于图中abcd四地自转角速度和线速度的叙述，正确的是</P>
+					<p >A.四地的角速度都相同 </p>
+					<p >B.四地的角速度都不同 </P>
+					<p >C.四地的自转线速度由小到大依次是 adbc </P>
+					<p class="fragment highlight-red">D.四地的自转线速度由大到小依次是 bcad</P>
+						<img  data-src="pic/test1/image009.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+					</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>10.图中四地该日昼长由长到短依次是(   )</P>
+					<p >A. a→ b→ c→ d </p>
+					<p class="fragment highlight-red">B. d→ c→ b→ a</P>
+					<p >C. c→ d→ b→ a</P>
+					<p >D. d→ a→ c→ b</P>
+					<img  data-src="pic/test1/image009.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section>
+
+				</section>
+				<section>
+
+					<p>第19届世界杯足球赛于2010年6月11日至7月12日在南非举行，最终西班牙队获得了冠军。结合南非和西班牙两国地图，回答11、12题。</P>
+					<p >11.南非世界杯期间，地球公转的速度(   )</p>
+
+					<p >A.逐渐加快<P>
+					<p > B.逐渐减慢 </P>
+					<p >C.先加快后减慢</P>
+                              <p class="fragment highlight-red">D.先减慢后加快</p>
+					<img  data-src="pic/test1/image008.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section>
+
+<section>
+
+					<p >12.世界杯期间，南非与西班牙相比(   )
+①正午太阳高度大         ②正午太阳高度小
+③白昼时间较长            ④白昼时间较短</p>
+
+					<p >A.①③</P>
+					<p >B.②③  </P>
+					<p >C.①④ </P>
+                              <p class="fragment highlight-red">D.②④</p>
+					<img  data-src="pic/test1/image008.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section>
+
+<section>
+<p >读图，回答13、14题</p>
+<p >13.图甲和图乙中分别反映纬度较低的两条曲线是(   )</p>
+
+					<p class="fragment highlight-red">A.①③ </P>
+					<p >B.②④</P>
+					<p >C.②③ </P>
+                              <p >D.①④</p>
+					<img  data-src="pic/test1/image007.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section>
+
+<section>
+
+<p >14.下列城市正午太阳高度的变化与曲线①最接近的是</p>
+
+					<p ">A.北京</P>
+					<p >B.上海 </P>
+					<p class="fragment highlight-red"> C.汕头 </P>
+                              <p >D.海口</p>
+					<img  data-src="pic/test1/image007.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section>
+
+<section>
+
+<p >15.不考虑地形起伏，图中各点最早迎接新年曙光的是</p>
+
+					<p class="fragment highlight-red">A.丁</P>
+					<p > B.丙  </P>
+					<p > C.乙 </P>
+                              <p > D.甲</p>
+					<img  data-src="pic/test1/image006.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section><section>
+
+<p >16.若甲、乙两地同时日落，下列说法正确的是(   )</p>
+
+					<p >A.太阳直射南半球</P>
+					<p class="fragment highlight-red">B.太阳直射北半球 </P>
+					<p >C.此时为春分日</P>
+                              <p > D.甲地的昼长比乙地短</p>
+					<img  data-src="pic/test1/image006.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section><section>
+
+<p >17.在纬度相同的乙、丁两地做水平运动的物体(   )</p>
+
+					<p >A.偏转方向相同 </P>
+					<p class="fragment highlight-red">B.乙向右偏，丁向左偏</P>
+					<p >C.都不偏转</P>
+                              <p > D.乙向左偏，丁向右偏</p>
+					<img  data-src="pic/test1/image006.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section><section>
+
+<p >北京时间2010年10月1日晚6时59分57秒，搭载着嫦娥二号卫星的长征三号丙运载火箭在西昌卫星发射中心点火发射。预计嫦娥二号卫星在约112小时后飞抵月球轨道。据此完成18、19题。</p>
+<p >18．嫦娥二号卫星发射时，地球处在公转轨道上的位置应在图中(   )</P>
+					<p>A.①→②</P>
+					<p >B.②→③ </P>
+					<p >C.③→④</P>
+                              <p class="fragment highlight-red"> D.④→①</p>
+					<img  data-src="pic/test1/image005.jpg" alt="" style="position: absolute;left:700px;top:300px;width:400px;">
+				</section><section>
+
+<p >19.嫦娥二号卫星升空时，巴黎(2.2°E，48.52°N)的区时为</p>
+
+					<p >A.2010年10月1日11时8分45秒</P>
+					<p >B.2010年9月30日22时59分57秒 </P>
+					<p >C.2010年9月30日23时8分45秒 </P>
+                              <p class="fragment highlight-red">D.2010年10月1日10时59分57秒</p>
+					<img  data-src="pic/test1/image005.jpg" alt="" style="position: absolute;left:700px;top:200px;width:400px;">
+				</section><section>
+
+<p >(2011·吉林高一检测)下图中a为晨昏线，c为经线，b为c线上地球自转线速度最大的点。读图回答20、21题。</p>
+<p >20.当a、c两线重叠时，下列叙述正确的是(   ) </P>
+					<p class="fragment highlight-red">A.北京和海口昼夜等长</P>
+					<p >B.北极圈及其以北有极昼现象 </P>
+					<p >C. b地正午太阳高度角达一年中最小值</P>
+                              <p >D.此时地球位于公转轨道的近日点附近</p>
+					<img  data-src="pic/test1/image004.jpg" alt="" style="position: absolute;left:650px;top:200px;width:400px;">
+				</section><section>
+
+<p >21.下面四幅图中，能正确表示b地水平运动物体方向的是</p>
+
+					<p >A</P>
+					<p >B.</P>
+					<p class="fragment highlight-red"> C </P>
+                              <p >D</p>
+					<img  data-src="pic/test1/image016.jpg" alt="" style="position: absolute;left:500px;top:300px;width:400px;">
+				</section>
+<section>
+
+<p >图中弧ACB是晨昏线，C点位于45°W经线上。读图回答22、23题。</p>
+<p >22.飞机从A地飞往B地，最近的航线是(   ).</P>
+					<p >A.从A地出发沿纬线向东飞到B地</P>
+					<p >B.从A地出发沿弧ADB飞到B地</P>
+					<p class="fragment highlight-red"> C.从A地出发沿弧ACB飞到B地</P>
+                              <p >D.从A地出发沿经线向北经北极点，再沿经线向南飞到B地</p>
+					<img  data-src="pic/test1/image002.gif" alt="" style="position: absolute;left:600px;top:100px;width:400px;">
+				</section><section>
+
+<p >23.若图中A地正当日出，此时全球日期是(   )</p>
+
+					<p >A.只有一个日期 A</P>
+					<p > B.两个日期各占一半</P>
+					<p class="fragment highlight-red"> C.今天的范围小于一半 </P>
+                              <p >D.今天的范围大于一半</p>
+					<img  data-src="pic/test1/image002.gif" alt="" style="position: absolute;left:500px;top:100px;width:400px;">
+				</section><section>
+
+<p >24.若下图中a是d的一部分，a和b组成c，则图中a、b、c可分别表示的概念是(   )</p>
+
+					<p class="fragment highlight-red">A.上地幔的顶部(软流层以上)、地壳、岩石圈</P>
+					<p >B.上地幔、下地幔、地幔.</P>
+					<p > C.外核、内核、地核</P>
+                              <p >D.地壳、地幔、地核</p>
+					<img  data-src="pic/test1/image001.gif" alt="" style="position: absolute;left:500px;top:300px;width:400px;">
+				</section><section>
+
+<p >25.有关地球外部圈层的说法，正确的是(   )</p>
+
+					<p >A.大气圈是由大气组成的简单系统</P>
+					<p class="fragment highlight-red">B.水圈是一个连续不规则的圈层</P>
+					<p >C.生物圈包括大气圈、水圈的全部 </P>
+                              <p >D.地球的外部圈层之间关系密切，但和地球的内部圈层没有关系</p>
+
+				</section>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+
+</html>

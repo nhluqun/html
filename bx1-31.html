@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>必修1第三章第一节水循环 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+
+</script> -->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" >
+                                                 <input type="text" name="bj" value="1" />
+                                                 <input type="submit" name="submit" value="点名" />
+                                </form></div>-->
+
+                            <div id="output1" style="position: absolute;right:160px;top:-30px;width:520px;color:white"> </div>
+				<div id="p"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">水循环练习</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+
+					<p >
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="13" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+
+
+		<p>1.地球上各种水体储量所占的比重，由大到小的排列顺序为
+</p>
+	<p class="fragment highlight-red">A.海洋水、冰川水、地下水、湖泊水</p>
+<p >B.海洋水、河流水、冰川水、地下水</P>
+<p >C.海洋水、河流水、湖泊水、大气水</P>
+<p >D.大气水、土壤水、沼泽水、生物水
+</P>
+
+		</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>读下图三种陆地水体相互转化关系示意图，完成2、3题。</P>
+					<p>2．甲代表的水体是(   )</p>
+					<p >A.雨水
+						<span> B.冰川融水
+</span></P>
+					<p><span > C.海洋水</span>  <span class="fragment highlight-red">
+						D.地下水  </span></P>
+<img  data-src="pic/bx1-31/3117.png" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+				</section>
+
+		</section>
+				<section>
+							<section>
+					<p>3．箭头a代表的现象一般发生在(   )</P>
+					<p >A.1、2月  </p>
+					<p >B.3、4月</P>
+					<p class="fragment highlight-red">C.6、7月</P>
+					<p >D.10、11月
+					</P>
+								<img  data-src="pic/bx1-31/3117.png" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+						</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>“一滴水可以汇入大海的波涛，可以化为高山的彩虹，可以变为地面的积雪。”结合所学知识，完成4、5题。
+</P>
+<p>4.这句话直接涉及了水循环的哪些环节(   )
+①径流                  ②蒸发
+③降水                  ④水汽输送</p>
+					<p >A.②③④</p>
+					<p >B.①③④ </p>
+					<p >C.①②④ </p>
+					<p class="fragment highlight-red">D.①②③</p>
+
+				</section>
+
+
+				</section>
+
+				<section>
+                 <section>
+
+					 <p>5.这段话说明水循环联系的圈层有(   )
+①水圈      ②岩石圈       ③大气圈     ④软流层
+					 </p>
+					<p >A.②③④</p>
+					<p >  B.①③④ </P>
+					<p >C.①②④</P>
+					<p class="fragment highlight-red"> D.①②③
+					</P>
+
+				</section>
+
+				</section>
+				<section>
+				<section>
+
+
+					<p>6.(2011·北京高一检测)2011年2月底北京地区普降中雪，是11年来最早降雪。如果此次降雪是实施人工增雪的结果，直接干预的是水循环中的(   )
+ </p>
+					<p >A.地下径流</p>
+					<p >B.下渗</P>
+					<p > C.地表径流 </P>
+					<p class="fragment highlight-red"> D.降水
+					</P>
+
+				</section>
+
+				</section>
+			<section>
+				<section>
+
+					<p>7.下图是某地地形剖面示意图。读图完成下列问题。	</P>
+
+					<p >(1)图中甲处水循环类型是[<span class="fragment fade-up" data-fragment-index="1" style="color:red">海陆间循环</span>]。</P>
+					<p > (2)如果该地区植被遭到破坏，可能会对该地区的水循环造成什么影响?</P>
+						<p class="fragment fade-up" style="width:300px;color:red">使该地降水减少，地表水下渗减少。</p>
+						<img  data-src="pic/bx1-31/3116.png" alt="" style="position: absolute;left:380px;top:220px;width:800px;">
+</section>
+<section>
+					<p >(3)如果A处城市过量开采地下水，可能会对当地环境产生的影响是。</P>
+   <p class="fragment fade-up" style="color:red">导致地下水水位下降或枯竭；沿海地带海水入侵，使地下水水质变坏；地面沉降或塌陷；工业污水、生活废水下渗污染地下水(至少答出三点)</p>
+					<img  data-src="pic/bx1-31/3116.png" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+				</section>
+
+			</section>
+
+			<section>
+
+<section>
+				<p>8.水循环是地球上最活跃的能量交换和物质转移过程之一，是自然界最富动力作用的循环运动，深刻而广泛地影响着全球的地理环境。结合所学知识，探究以下地理现象所反映的水循环的地理意义。
+			</p>
+				<img  data-src="pic/bx1-31/3115.png" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+			</section>
+			<section>
+				<p></p>
+				<img  data-src="pic/bx1-31/3114.png" alt="">
+			</section>
+</section>
+			<section>
+			<p>读我国东北地区某河流流量补给示意图，完成1、2题。</p>
+			<p>1.图中数码表示雨水补给和季节性融雪补给类型的分别是</p>
+			<p >A. ①②  </p>
+			<p >B.②③  </P>
+			<p class="fragment highlight-red"> C.③②   </P>
+			<p > D.③①</P>
+			<img  data-src="pic/bx1-31/3113.png" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+		</section>
+		<section>
+
+		<p>2.与淮河相比，该河流水文特征是(   )</p>
+		<p >A.水位季节变化小 </p>
+		<p > B.泥沙含量大</P>
+		<p class="fragment highlight-red"> C.有明显的春汛和夏汛 </P>
+		<p > D.冬季封冻断流</P>
+		<img  data-src="pic/bx1-31/3113.png" alt="" style="position: absolute;left:380px;top:200px;width:800px;">
+		</section>
+		<section>
+		<p>    读水循环示意图，回答3、4题。</p>
+		<p>3．能正确反映陆地内循环的是(   )</p>
+		<p class="fragment highlight-red">A．g→b→c→d   </p>
+		<p > B．a→b→c→d</P>
+		<p > C．f→a→c→e </P>
+		<p >D．g→e→f→a</P>
+		<img  data-src="pic/bx1-31/3112.png" alt="" style="position: absolute;left:380px;top:250px;width:800px;">
+		</section>
+		<section>
+		<p>读我国东北地区某河流流量补给示意图，完成1、2题。</p>
+		<p>4．有关水循环地理意义的叙述，不正确的是(   )</p>
+		<p >A．使陆地水资源得到不断更新</p>
+		<p >B．维持全球水的动态平衡 </P>
+		<p >C．不断塑造着地表形态</P>
+		<p class="fragment highlight-red" style="width:500px">D．加剧不同纬度热量收支不平衡的矛盾</P>
+		<img  data-src="pic/bx1-31/3112.png" alt="" style="position: absolute;left:500px;top:200px;width:800px;">
+		</section>
+		<section>
+		<p>(2010·北京文综)下图是非洲乍得湖流域图。读图，回答5、6题。</p>
+		<p>5．乍得湖流域(   )
+</p>
+		<p >A．河流径流量的季节变化小 </p>
+		<p >B．河水主要来源于冰雪融水</P>
+		<p >C．地表径流参与海陆间水循环</P>
+		<p class="fragment highlight-red">D．水面蒸发参与陆地内水循环</P>
+		<img  data-src="pic/bx1-31/3111.png" alt="" style="position: absolute;left:580px;top:100px;width:600px;">
+		</section>
+		<section>
+
+		<p>6．根据图中信息可以判断(   )</p>
+		<p >A．流域面积缩小</p>
+		<p class="fragment highlight-red">B．湖泊水位总体下降</P>
+		<p > C．流域主体位于热带荒漠</P>
+		<p > D．1963年时湖底东南高，西北低
+</P>
+		<img  data-src="pic/bx1-31/3111.png" alt="" style="position: absolute;left:580px;top:100px;width:600px;">
+		</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+		<script src="js/raphael.js"></script>
+		<script type="text/javascript">
+            var paper = Raphael("p", 800, 600);
+            var rect = paper.rect(500, 500, 60, 40).attr({
+                "fill": "#208",
+                "stroke": "#888" ,// border color of the rectangle
+				"text":"我的框"
+            });
+            rect.animate({
+                transform: "r90t100,0s1.5"
+            }, 2000,"bounce",function(){console.log("finish");});
+            rect.click(function(){
+                alert("hahah!");
+            });
+            // rect.mouseover(function(){
+            //	alert("wow");
+            //	});
+
+		</script>
+	</body>
+
+</html>

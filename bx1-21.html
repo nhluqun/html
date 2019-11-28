@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>必修1第二章第二节气压带与风带 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+
+</script> -->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" >
+                                                 <input type="text" name="bj" value="1" />
+                                                 <input type="submit" name="submit" value="点名" />
+                                </form></div>-->
+
+                                <div id="output1" style="position: absolute;right:660px;top:530px;width:220px;color:white"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">气压带风带练习</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+
+					<p >
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="13" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+
+<p>读地球上的气压带和风带示意图，回答1、2题。
+</P>
+		<p>1.图中关于气压带甲说法正确的是(   )</p>
+	<p>A.甲气压带是赤道低气压带</p>
+<p class="fragment highlight-red">B.甲气压带是副热带高气压带</P>
+<p >C.甲气压带的成因是空气受热上升</P>
+<p >D.甲气压带的成因是空气受冷下沉
+</P>
+		<img  data-src="pic/bx1-221/image003.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+		</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>2.关于气压带的正确叙述是(   )</P>
+					<p >A.地球上共有4个低气压带，3个高气压带
+					</p>
+					<p >B.高气压带都是由受冷下沉形成的</P>
+					<p class="fragment highlight-red">C.赤道附近是地球上的多雨地带</P>
+					<p >D.由极地高气压吹出来的风是偏北风</P>
+					<img  data-src="pic/bx1-221/image003.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+		</section>
+				<section>
+							<section>
+					<p>3.下面关于气压带和风带的叙述，错误的是(   )</P>
+					<p >A．低压带气流上升，多阴雨天气</p>
+					<p class="fragment highlight-red">B．热的地方形成低压，冷的地方形成高压</P>
+					<p >C．全球气压带分布具有高低相间的规律 </P>
+					<p >D．高压带气流下沉，多晴朗天气
+					</P>
+								<div id="p"> </div>
+
+						</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>4.(2011·贵州高一检测)下列四副图中正确反映北半球副热带高气压带两侧大气运动的是(   )</P>
+					<p >A.A</p>
+					<p >B.B</p>
+					<p >C.C</p>
+					<p class="fragment highlight-red">D.D</p>
+					<img  data-src="pic/bx1-221/image002.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+
+				</section>
+
+				<section>
+                 <section>
+
+					 <p>5.读北半球中高纬环流示意图，分析下列说法正确的是(   )
+					 </p>
+					<p class="fragment highlight-red">A．甲点位于30°N附近</p>
+					<p >B．乙点位于30°N附近</P>
+					<p >C．①是冷性气流</P>
+					<p > D．②盛行西北风
+					</P>
+					 <img  data-src="pic/bx1-221/image004.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+				</section>
+				<section>
+				<section>
+
+                          <p >6.以下各项的一组风带中，风向相同的有(   )</p>
+					<p >A．南半球的信风带与北半球的信风带</p>
+					<p > B．北半球的极地东风带与南半球的极地东风带</P>
+					<p class="fragment highlight-red">C．南半球的信风带与南半球的极地东风带</P>
+					<p >D．南半球的中纬西风带与北半球的中纬西风带
+					</P>
+
+				</section>
+
+				</section>
+			<section>
+				<section>
+
+					<p>7.气压带与风带的位置移动规律是(   )	</P>
+
+					<p >A.夏季偏北，冬季偏南</P>
+					<p >B.夏季偏南，冬季偏北</P>
+					<p class="fragment highlight-red">C.与太阳直射点的移动方向一致</P>
+<p>D.与太阳直射点的移动方向相反</p>
+				</section>
+
+			</section>
+				<section>
+					<section>
+
+						<p>8．读下图，完成下列要求。
+						</P>
+						<img  data-src="pic/bx1-221/image005.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+						<p >(1)在图左侧添画箭头以正确表示三圈环流。</P>
+						<p >(2)写出图中字母代表的气压带名称：
+							A[<span class="fragment fade-up" data-fragment-index="1" style="color:red">赤道低气压带</span>，B[<span class="fragment fade-up" data-fragment-index="2" style="color:red">副热带高气压带</span>]，C[<span class="fragment fade-up" data-fragment-index="3" style="color:red">副极地低气压带 </span>]，D[<span class="fragment fade-up" data-fragment-index="4" style="color:red">极地高气压带</span>。</P>
+
+						</section>
+<section>
+	<p >(3)在图中相应的位置上添画箭头表示各风带风向，并标注风带名称。
+	</P>
+	<img  class="fragment fade-up" data-fragment-index="1" data-src="pic/bx1-221/image006.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+	<p>(4)此图表示北半球[<span class="fragment fade-up" data-fragment-index="2" style="color:red">冬季</span>](季节)。</p>
+</section>
+				</section>
+				<section>
+					<section>
+
+						<p>9．解读图(部分纬度大气环流示意图)中信息，判断正误。正确的在括号内打“√”，错误的打“×”。</P>
+
+						<p >(1)图中字母A表示赤道低气压带，D表示极地高气压带，两者都是因为受热不均造成的(<span class="fragment fade-up" data-fragment-index="1" style="color:red">√</span>   )</P>
+						<p >(2)图中字母B表示副热带高气压带，C表示副极</p>
+						<p>地低气压带，两者都是因为受热不均造成的(<span class="fragment fade-up" data-fragment-index="2" style="color:red">× </span>   )</P>
+						<p >(3)图中A、C两处气流上升，降水较多，其中</p>
+						<p>A处多对流雨，C处多锋面雨(<span class="fragment fade-up" data-fragment-index="3" style="color:red">√</span>   )</P>
+						<p >(4)图中a为东南风，b为西南风(<span class="fragment fade-up" data-fragment-index="4" style="color:red">× </span>   )
+						</P>
+						<img  data-src="pic/bx1-221/image007.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+					</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>读近地面的等压线图，回答1、2题。</P>
+					<p>1.如果下图代表“三圈环流”中的低纬环流圈，S线代表地球表面，则(   )
+					</p>
+					<p >A.E处气温比H处高
+					</p>
+					<p class="fragment highlight-red">B.F处气压比G处低
+					</P>
+					<p >C.气流②自西向东运动</P>
+					<p > D.G处因遇冷形成高压
+					</P>
+					<img  data-src="pic/bx1-221/image008.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+				</section>
+				<section>
+
+
+					<p >2．下图中箭头表示空气运动方向。若该图为南半球三圈环流的一部分，且甲地纬度较乙地低，则(   )
+					</p>
+
+					<p >A．该环流圈为高纬环流<P>
+					<p >B．该环流圈为低纬环流</P>
+					<p class="fragment highlight-red">C．近地面，甲、乙之间盛行风向为西北风</P>
+                              <p >D．近地面，甲、乙之间盛行风向为西南风
+							  </p>
+					<img  data-src="pic/bx1-221/image009.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+<section>
+
+
+<p>3.(2010·江苏地理)2010年3月以来，
+	北大西洋极圈附近的冰岛发生大规模
+	火山喷发，火山灰蔓延使欧洲航空业
+	蒙受重大损失。右图为火山喷发图片。
+	导致冰岛火山灰蔓延到欧洲上空的气压带和气流是(   )
+
+</p>
+					<p >A.副热带高气压带和西风 </P>
+					<p class="fragment highlight-red">B.副极地低气压带和西风 </P>
+					<p >C.副热带高气压带和东北风</P>
+                              <p >D.副极地低气压带和东北风
+							  </p>
+	<img  data-src="pic/bx1-221/image010.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+<section>
+
+<p >下图为北半球夏季以北极点为中心的气压带、风带示意图，读图完成4、5题。下图为北半球夏季以北极点为中心的气压带、风带示意图，读图完成4、5题。
+</p>
+<p>4.图中字母E所表示的气压带是(   )</p>
+	<p >A.赤道低气压带 </P>
+					<p class="fragment highlight-red">B.副热带高气压带</P>
+					<p >C.副极地低气压带</P>
+                              <p >D.极地高气压带</p>
+	<img  data-src="pic/bx1-221/image011.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+<section>
+
+<p >5.下图中四组箭头能正确表示D带风向的是(   )
+
+</p>
+
+					<p class="fragment highlight-red">A.A</P>
+					<p >B. B
+					</P>
+					<p >C. C</P>
+                              <p > D.D
+
+							  </p>
+	<img  data-src="pic/bx1-221/image011.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+	<img  data-src="pic/bx1-221/1.png" alt="" style="position: absolute;left:780px;top:150px;width:400px;">
+				</section>
+
+<section>
+
+<p > 读某月某条经线上部分气压带、风带和气流的相关示意图，回答6、7题。
+</p>
+<p>6.图中②气压带或风带的气流运动方向和性质分别为(   )</p>
+					<p class="fragment highlight-red">A.下沉　　干燥 </P>
+					<p >B.上升　　湿润
+					</P>
+					<p >C.由高纬流向低纬　　干燥</P>
+                              <p >D.由低纬流向高纬　　湿润
+							  </p>
+	<img  data-src="pic/bx1-221/image012.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section><section>
+
+<p >7.图中显示的日期可能是(   )
+</p>
+
+					<p >A.3月21日</P>
+					<p > B.6月22日
+					</P>
+					<p >C.9月23日 </P>
+                              <p class="fragment highlight-red">D.12月22日
+
+							  </p>
+
+				<img  data-src="pic/bx1-221/image012.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+<section>
+				<section>
+
+<p >8.(探究性学习)根据以下材料回答问题。(22分)
+</p>
+				<p>材料一   在18世纪产业革命前，航海家们发现纬度30°附近总是无风，帆船进入该海区无法航行，人们把这个无风的纬度称为“马纬度”。另外，在赤道海区、南北纬60°海区都是无风带。有无风带，也有有风带。在“马纬度”和赤道之间就有一个风带，并且风向很少改变，海员们称之为信风，古代的航海家和商人在这种风的帮助下，往来于大西洋和太平洋，在各大洲进行贸易往来，因此，这种信风又有“贸易风”之称。
+				</p>
+
+				</section>
+	<section>
+		<p>材料二   麦哲伦环球航海线路图
+		</p>
+		<img  data-src="pic/bx1-221/image013.gif" alt="" style="position: absolute;left:300px;top:250px;width:800px;">
+	</section>
+</section>
+<section>
+	<p>(1)材料一中的“马纬度”无风，是因为该处受<span class="fragment fade-up" data-fragment-index="1" style="color:red">副热带高气压</span>带控制，“南北纬60°海区都是无风带”是因为南北纬60°海区受<span class="fragment fade-up" data-fragment-index="2" style="color:red">副极地低气压
+</span>带控制。</p>
+
+	<p>(2)材料一中的“贸易风”处在<span class="fragment fade-up" data-fragment-index="3" style="color:red">副热带高气压</span>带(气压带)和<span class="fragment fade-up" data-fragment-index="4" style="color:red">赤道低气压</span>带(气压带)之间，在北半球为<span class="fragment fade-up" data-fragment-index="5" style="color:red">东北</span>风，南半球为<span class="fragment fade-up" data-fragment-index="6" style="color:red">东南 </span>风，除此之外地球上还有哪些风带？</p>
+<p><span class="fragment fade-up" data-fragment-index="7" style="color:red">中纬西风带、极地东风带</span></p>
+</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+		<script src="js/raphael.js"></script>
+		<script type="text/javascript">
+            var paper = Raphael("p", 800, 600);
+            var rect = paper.rect(500, 500, 60, 40).attr({
+                "fill": "#208",
+                "stroke": "#888" ,// border color of the rectangle
+				"text":"我的框"
+            });
+            rect.animate({
+                transform: "r90t100,0s1.5"
+            }, 2000,"bounce",function(){console.log("finish");});
+            rect.click(function(){
+                alert("hahah!");
+            });
+            // rect.mouseover(function(){
+            //	alert("wow");
+            //	});
+
+		</script>
+	</body>
+
+</html>

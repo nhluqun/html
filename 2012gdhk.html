@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>2012广东会考题 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+                
+    
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>-
+<script src="js/jquery.form_1.js"></script>-->
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){ 
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+    
+</script> --> 
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" > 
+                                                 <input type="text" name="bj" value="1" /> 
+                                                 <input type="submit" name="submit" value="点名" /> 
+                                </form></div>-->
+                            
+                                <div id="output1" style="color: yellow;position: absolute;right:760px;top:530px;width:220px;"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">2012年广东省学业水平测试</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+                                        
+					<p style="text-align: center">
+						<small>制作：吕群</small>
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="1" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+<p>1.长江多年平均径流量最大的季节是</p>
+<p>A．春季</p>
+<p class="fragment highlight-red">B．夏季</p>
+<p>C．秋季</p>
+<p>D．冬季</p>
+</section>
+<section>
+<p>2．我国东部季风区气候特征主要表现为</p>
+<p class="fragment highlight-red">A．雨热同期</p>
+<p>B．全年干旱少雨</p>
+<p>C．降水季节变化小</p>
+<p>D．冬季南北热量条件相差不大</p>
+</section>
+<section>
+<p>3．下列天体系统中，不包含地球的是</p>
+<p>A．地月系</p>
+<p>B．太阳系</p>
+<p>C．银河系</p>
+<p class="fragment highlight-red">D．河外星系</p>
+</section>
+<section>
+<p>4．依托大型飞机场的“空港经济区”适宜发展</p>
+<p class="fragment highlight-red">A．微电子产业</p>
+<p>B．木材加工业</p>
+<p>C．矿石开采业</p>
+<p>D．重化工产业</p>
+</section>
+<section>
+<p>为某地的多年平均气温—降水图，读图并结合所学知识，完成5~6</p>
+<p>题。</p>
+<p>5．该地气候的主要特征是</p>
+<p>A．冬季寒冷少雨</p>
+<p>B．夏季炎热干燥</p>
+<p>C．全年高温多雨</p>
+<p class="fragment highlight-red">D．全年温和多雨</p>
+</section>
+<section>
+<p>6．该地的气候类型是</p>
+<p>A．热带雨林气候</p>
+<p>B．亚热带季风气候</p>
+<p>C．地中海气候</p>
+<p class="fragment highlight-red">D．温带海洋性气候</p>
+</section>
+<section>
+<p>7．继美国洛杉矶和奥兰多、日本东京、法国巴黎、中国香港之后，上海将建成全球第六个迪斯尼乐园。迪斯尼乐园选址主要考虑的因素是</p>
+<p>A．交通</p>
+<p>B．劳动力</p>
+<p>C．技术</p>
+<p class="fragment highlight-red">D．市场</p>
+</section>
+<section>
+<p>8．黄土高原土质疏松，历史上由于植被破坏，加上降水变率大，导致水土流失，形成千沟万壑的地表景观。这体现了黄土高原地理环境的</p>
+<p>A．差异性</p>
+<p>B．稳定性</p>
+<p class="fragment highlight-red">C．整体性</p>
+<p>D．周期性</p>
+</section>
+<section>
+<p>9．城市光化学烟雾型的大气污染，污染源主要是</p>
+<p>A．燃煤锅炉</p>
+<p class="fragment highlight-red">B．汽车尾气</p>
+<p>C．地面扬尘</p>
+<p>D．家庭炉灶</p>
+</section>
+<section>
+<p>10．不同时期人地关系的状况是</p>
+<p>A．采猎文明时期，人类不受地理环境制约</p>
+<p>B．农业文明时期，人地关系全面恶化</p>
+<p>C．工业文明时期，人地关系初现矛盾</p>
+<p class="fragment highlight-red">D．后工业文明时期，人地关系走向协调</p>
+</section>
+<section>
+<p>为太平洋洋流分布示意图。读图并结合所学知识，完成11~13</p>
+<p>题。</p>
+<p>11．图中①②③④洋流为寒流的是</p>
+<p>A．①</p>
+<p>B．②</p>
+<p>C．③</p>
+<p class="fragment highlight-red">D．④</p>
+</section>
+<section>
+<p>12．图中甲处有世界著名的渔场，其形成的</p>
+<p>主要原因是</p>
+<p>A．暖流流经海域，海水温暖</p>
+<p>B．寒流流经海域，人迹罕至</p>
+<p class="fragment highlight-red">C．寒暖流交汇区，饵料丰富</p>
+<p>D．不受洋流影响，风平浪静</p>
+</section>
+<section>
+<p>13．洋流对乙地沿岸气候的影响是</p>
+<p>A．降温增湿</p>
+<p>C．增温减湿</p>
+<p>B．降温减湿</p>
+<p class="fragment highlight-red">D．增温增湿</p>
+</section>
+<section>
+<p>北京时间2011年11月17日19时36分，我国“神舟八号”卫星在内蒙古顺利降落返回地</p>
+<p>面。结合所学知识，完成14~16题。</p>
+<p>14．材料里提到的时间是指</p>
+<p>A．北京地方时</p>
+<p>B．格林尼治时间</p>
+<p class="fragment highlight-red">C．东八区区时</p>
+<p>D．内蒙古地方时</p>
+</section>
+<section>
+<p>15．此日，地球位于公转轨道的</p>
+<p>A．春分日到夏至日之间</p>
+<p>B．夏至日到秋分日之间</p>
+<p class="fragment highlight-red">C．秋分日到冬至日之间</p>
+<p>D．冬至日到春分日之间</p>
+</section>
+<section>
+<p>16．“神舟八号”降落返回地面时，纽约时间（西五区）为</p>
+<p>A．11月17日2时36分</p>
+<p class="fragment highlight-red">B．11月17日6时36分</p>
+<p>C．11月16日6时36分</p>
+<p>D．11月17日18时36分</p>
+</section>
+<section>
+<p>17．城市的等级越高，所提供的服务</p>
+<p class="fragment highlight-red">A．种类越多、范围越大</p>
+<p>B．种类越少、范围越大</p>
+<p>C．种类越少、范围越小</p>
+<p>D．种类越多、范围越小</p>
+</section>
+<section>
+<p>18．2011年3月日本大地震引发海啸，当时为快速了解沿岸地区的受灾范围，应采用的技术手段是</p>
+<p class="fragment highlight-red">A．遥感</p>
+<p>B．地理信息系统</p>
+<p>C．全球定位系统</p>
+<p>D．人工实地调查</p>
+</section>
+<section>
+<p>19．图3为岩石圈物质循环示意图，图中①②③④表示变质作用的是</p>
+<p>A．①</p>
+<p>B．②</p>
+<p class="fragment highlight-red">C．③</p>
+<p>D．④</p>
+</section>
+<section>
+<p>20．太阳活动增强可能导致</p>
+<p>A．北半球夏至日正午太阳高度角增大</p>
+<p>B．地球两极地区出现极昼、极夜现象</p>
+<p>C．地球不同纬度自转角速度差异增大</p>
+<p class="fragment highlight-red">D．地面无线电短波通讯受到干扰</p>
+</section>
+<section>
+<p>21．图4是地质构造示意图，图中甲处的地质构造是</p>
+<p>A．向斜</p>
+<p>B．背斜</p>
+<p class="fragment highlight-red">C．断层</p>
+<p>D．褶皱</p>
+</section>
+<section>
+<p>22．从广州站乘火车沿京广线到北京，沿途主要自然景观的变化体现了</p>
+<p>A．由沿海向内陆的地域分异规律（经度地带性）</p>
+<p class="fragment highlight-red">B．由赤道向两极的地域分异规律（纬度地带性）</p>
+<p>C．山地的垂直地域分异规律</p>
+<p>D．非地带性</p>
+</section>
+<section>
+<p>23．下列能源中，由太阳辐射能转化而来的是</p>
+<p class="fragment highlight-red">A．风能</p>
+<p>C．核能</p>
+<p>B．潮汐能</p>
+<p>D．地热能</p>
+</section>
+<section>
+<p>图5为某河流中游一断面不同年份枯水期与洪水期水位线示意图。读图并结合所学知识，</p>
+<p>完成24~25</p>
+<p>题。</p>
+<p>24．该断面水位变化最大的年份是</p>
+<p>A．1970年</p>
+<p>B．1980年</p>
+<p class="fragment highlight-red">C．1990年</p>
+<p>D．2000年</p>
+</section>
+<section>
+<p>25．2000年较1990年水位年变幅减小，其原因可能是1990~2000年间流域内</p>
+<p>A．上游围湖造田</p>
+<p class="fragment highlight-red">B．上游植被覆盖率增大</p>
+<p>C．下游用水增加</p>
+<p>D．下游水土流失减轻</p>
+</section>
+<section>
+<p>26．山区公路一般都修成“之”字形，主要考虑的自然因素是</p>
+<p>A．气候</p>
+<p class="fragment highlight-red">B．地形</p>
+<p>C．植被</p>
+<p>D．土壤</p>
+</section>
+<section>
+<p>人们把常年积雪区的下界，叫做雪线。结合所学知识，完成27~28题。</p>
+<p>27．不同纬度高山雪线的高度差异明显，其主要原因是</p>
+<p>A．地势的高低不同</p>
+<p>B．土壤的肥力不同</p>
+<p class="fragment highlight-red">C．热量的纬度差异</p>
+<p>D．植被的覆盖差异</p>
+</section>
+<section>
+<p>28．近年来，世界上很多高山的雪线高度有上升的趋势，其主要原因可能是</p>
+<p>A．全球降水增多</p>
+<p class="fragment highlight-red">B．全球气温升高</p>
+<p>C．地壳运动剧烈</p>
+<p>D．海平面的上升</p>
+</section>
+<section>
+<p>图6为两类工业产品成本构成示意图。读图并结合所学知识，完成29~30题。</p>
+<p>29．甲类工业产品成本构成中，比例最高的是</p>
+<p>A．运费</p>
+<p>B．原料</p>
+<p class="fragment highlight-red">C．科技投入</p>
+<p>D．工资投入</p>
+</section>
+<section>
+<p>30．按影响成本的主导因素划分，乙类工厂代表的工业区位类型是</p>
+<p class="fragment highlight-red">A．原料指向型</p>
+<p>B．劳动力指向型</p>
+<p>C．市场指向型</p>
+<p>D．动力指向型</p>
+</section>
+<section>
+<p>31．一定区域内环境人口容量的大小，与该区域</p>
+<p>A．科技发展水平呈负相关</p>
+<p>B．资源数量呈负相关</p>
+<p class="fragment highlight-red">C．人均消费水平呈负相关</p>
+<p>D．自然环境条件无关</p>
+</section>
+<section>
+<p>32．我国核电站主要分布在东部沿海地区，其主要原因是该区域</p>
+<p>A．环境容量大</p>
+<p>B．铀矿等核燃料资源丰富</p>
+<p class="fragment highlight-red">C．能源需求量大</p>
+<p>D．海运便利，燃料运输成本低</p>
+</section>
+<section>
+<p>图7是某城市某方向上地租水平与距城市中心距离关系示意图，读图并结合所学知识，完</p>
+<p>成33~34题。</p>
+<p>33．丁地距离城市中心较远，而地租水平较高，其原因最可能是该地</p>
+<p>A．地形崎岖</p>
+<p>B．降水丰富</p>
+<p class="fragment highlight-red">C．交通便捷</p>
+<p>D．传统工业集聚</p>
+</section>
+<section>
+<p>34．甲地最有可能形成的功能区是</p>
+<p>A．低级住宅区</p>
+<p class="fragment highlight-red">B．中心商务区</p>
+<p>C．工业区</p>
+<p>D．文教区</p>
+</section>
+<section>
+<p>35．我国不同地区水稻种植的时间有差异，南方早，北方晚。造成这种现象的主要自然因素</p>
+<p>是</p>
+<p>A．水文</p>
+<p class="fragment highlight-red">B．气候</p>
+<p>C．地形</p>
+<p>D．土壤</p>
+</section>
+<section>
+<p>36．与长江中下游平原相比，塔里木盆地农业生产的优势条件是</p>
+<p class="fragment highlight-red">A．光照充足</p>
+<p>B．热量丰富</p>
+<p>C．降水丰沛</p>
+<p>D．土壤肥沃</p>
+</section>
+<section>
+<p>图8为某地区乡村聚落分布示意图。读图并结合所学知识，完成37~38</p>
+<p>题。</p>
+<p>37．该地聚落总体形态及其影响因素是</p>
+<p>A．团状，地质因素</p>
+<p>B．团状，地形因素</p>
+<p>C．带状，气候因素</p>
+<p class="fragment highlight-red">D．带状，河流因素</p>
+</section>
+<section>
+<p>38．一般情况下，图中甲、乙、丙、丁四地最有可能发展成为城镇的是</p>
+<p class="fragment highlight-red">A．甲</p>
+<p>B．乙</p>
+<p>C．丙</p>
+<p>D．丁</p>
+</section>
+<section>
+<p>39．下列各组地域单元中，按照同一类指标进行归类的是</p>
+<p class="fragment highlight-red">A．热带、温带、寒带</p>
+<p>B．湿润地区、低纬度地区、江南丘陵</p>
+<p>C．黄河流域、东南丘陵、干旱地区</p>
+<p>D．广东省、广州市、云贵高原</p>
+</section>
+<section>
+<p>40．改革开放初期，与环渤海地区相比，珠江三角洲地区工业发展的优势条件是</p>
+<p>A．产业基础好</p>
+<p>B．矿产资源丰富</p>
+<p>C．腹地范围广</p>
+<p class="fragment highlight-red">D．毗邻香港澳门</p>
+</section>
+<section>
+<p>图9为某地区不同时期人口年龄结构图。读图并结合所学知识，完成41~42</p>
+<p>题。</p>
+<p>41．1991年与1951年相比，该地区</p>
+<p class="fragment highlight-red">A．60岁以上人口比重上升</p>
+<p>B．40﹣60岁人口比重保持不变</p>
+<p>C．20﹣40岁人口比重下降</p>
+<p>D．0﹣5岁人口比重上升</p>
+</section>
+<section>
+<p>42．2031年该地区的人口年龄结构特征是</p>
+<p>A．少儿人口比重大</p>
+<p class="fragment highlight-red">B．老龄人口比重大</p>
+<p>C．人口年龄结构呈金字塔形</p>
+<p>D．男女人口数相等</p>
+</section>
+<section>
+<p>43．“竭泽而渔”违背了可持续发展的</p>
+<p class="fragment highlight-red">A．持续性原则</p>
+<p>B．整体性原则</p>
+<p>C．共同性原则</p>
+<p>D．差异性原则</p>
+</section>
+<section>
+<p>44．目前，我国人口迁移的主要原因是</p>
+<p>A．人口密度的区域差异</p>
+<p>B．国家政策的影响</p>
+<p>C．自然资源的区域差异</p>
+<p class="fragment highlight-red">D．经济发展水平的地区差异</p>
+</section>
+<section>
+<p>图10为我国某城郊自然村农产品产值构成示意图，读图并结合所学知识，完成45~46题。</p>
+<p>45．由此推断，影响该自然村农业生产结构的主导因素是</p>
+<p>A．政策</p>
+<p class="fragment highlight-red">B．市场</p>
+<p>C．土壤</p>
+<p>D．地形</p>
+</section>
+<section>
+<p>46．该自然村可能位于</p>
+<p>A．长春</p>
+<p>B．西安</p>
+<p class="fragment highlight-red">C．广州</p>
+<p>D．北京</p>
+</section>
+<section>
+<p>47．下列能源消费中，基本没有碳排放的是</p>
+<p>A．沼气和煤炭</p>
+<p>B．天然气和地热能</p>
+<p>C．核能和石油</p>
+<p class="fragment highlight-red">D．风能和太阳能</p>
+</section>
+<section>
+<p>48．霜冻多出现在晚秋或寒冬季节晴朗的夜晚，主要是因为此时</p>
+<p>A．地面辐射弱</p>
+<p>B．太阳辐射强</p>
+<p>C．大气反射强</p>
+<p class="fragment highlight-red">D．大气逆辐射弱</p>
+</section>
+<section>
+<p>49．某山区将低产的山坡地改造成水平梯田，主要是为了</p>
+<p>A．调节大气温度</p>
+<p>B．增加日照时数</p>
+<p>C．增加空气湿度</p>
+<p class="fragment highlight-red">D．提高保水保肥能力</p>
+</section>
+<section>
+<p>50．图11反映了近2万年来海平面高度变化。由此可推断，地表冰川覆盖面积最大的时期</p>
+<p>大约距今</p>
+<p class="fragment highlight-red">A．17千年前后</p>
+<p>B．11千年前后</p>
+<p>C．5千年前后</p>
+<p>D．2千年前后</p>
+</section>
+<section>
+<p>51．我国柴达木盆地主要景观特征是</p>
+<p class="fragment highlight-red">A．荒漠广布</p>
+<p>B．稻花飘香</p>
+<p>C．黑土广阔</p>
+<p>D．河道纵横</p>
+</section>
+<section>
+<p>52．假设在宇宙中发现一颗有与地球人类一样生命形态的行星，则该行星可能没有</p>
+<p>A．大气层</p>
+<p>B．液态水</p>
+<p>C．像太阳一样的恒星照射</p>
+<p class="fragment highlight-red">D．像月球一样的卫星绕行</p>
+</section>
+<section>
+<p>我国北方城郊建有大面积的温室大棚，冬季市民餐桌上常有西红柿、黄瓜等夏季蔬菜。据此</p>
+<p>完成53~54题。</p>
+<p>53．温室大棚能种植反季节蔬菜，主要是因为它能够改变大棚内的</p>
+<p>A．水分条件</p>
+<p>B．土壤条件</p>
+<p class="fragment highlight-red">C．热量条件</p>
+<p>D．光照条件</p>
+</section>
+<section>
+<p>54．在自然条件下，我国冬季能种植西红柿、黄瓜的地区位于</p>
+<p class="fragment highlight-red">A．海南岛</p>
+<p>B．东北平原</p>
+<p>C．准噶尔盆地</p>
+<p>D．黄河三角洲</p>
+</section>
+<section>
+<p>55．许多旅外华人喜欢聚居在一起，这一现象主要是由于</p>
+<p>A．国家政策的影响</p>
+<p class="fragment highlight-red">B．民族文化的影响</p>
+<p>C．交通条件的影响</p>
+<p>D．地形气候的影响</p>
+</section>
+<section>
+<p>56．内蒙古高原是我国重要的畜牧业生产基地，华北平原是我国重要的小麦生产基地，长江中下游平原是我国重要的水稻生产基地。这些不同农业生产地域的形成主要是由于</p>
+<p>A．地形条件差异</p>
+<p>B．政策导向影响</p>
+<p class="fragment highlight-red">C．水热条件差异</p>
+<p>D．饮食习惯影响</p>
+</section>
+<section>
+<p>57．假设黄赤交角变为0°，则不可能出现的是</p>
+<p>A．太阳终年直射地球赤道</p>
+<p>B．地球上无大气环流现象</p>
+<p>C．地球全年都是昼夜平分</p>
+<p class="fragment highlight-red">D．地球全年四季变化明显</p>
+</section>
+<section>
+<p>图12为某地某日一次强台风过程的风速逐时变化图。读图并根据所学知识，完成58~59题。</p>
+<p>58．当天控制该地的是</p>
+<p class="fragment highlight-red">A．热带气旋</p>
+<p>B．副热带高压</p>
+<p>C．冷锋</p>
+<p>D．暖锋</p>
+</section>
+<section>
+<p>59．在15~17时该地出现的天气现象是</p>
+<p>A．阳光明媚</p>
+<p class="fragment highlight-red">B．狂风暴雨</p>
+<p>C．阴雨连绵</p>
+<p>D．电闪雷鸣</p>
+</section>
+<section>
+<p>60．下列地区的气候类型中，受海洋寒流影响明显的是</p>
+<p>A．南美东部热带雨林气候</p>
+<p>B．欧洲西部温带海洋性气候</p>
+<p class="fragment highlight-red">C．南美西部热带沙漠气候</p>
+<p>D．亚洲东部亚热带季风气候</p>
+</section>
+<section>
+<p>61．近年来，我国南方部分沿海地区红树林面积有所扩大，其主要作用有</p>
+<p>A．为过往船只提供避风场所</p>
+<p class="fragment highlight-red">B．防浪护岸</p>
+<p class="fragment highlight-red">C．增加生物多样性</p>
+<p>D．增加木材供应</p>
+</section>
+<section>
+<p>62．南水北调工程对华北平原的影响主要有</p>
+<p class="fragment highlight-red">A．缓解水资源紧缺状况</p>
+<p class="fragment highlight-red">B．改善生态环境质量</p>
+<p>C．削减污水排放量</p>
+<p>D．增加水能装机容量</p>
+</section>
+<section>
+<p>63．我国长江中下游平原易发生洪涝灾害的主要自然原因有</p>
+<p>A．地形复杂崎岖不平</p>
+<p>B．土壤肥沃土质疏松</p>
+<p class="fragment highlight-red">C．降水时空分配不均</p>
+<p class="fragment highlight-red">D．河湖淤塞排水不畅</p>
+</section>
+<section>
+<p>64．大型水利工程建设对其所在流域可能带来的影响有</p>
+<p>A．增加下游洪峰流量</p>
+<p class="fragment highlight-red">B．调节库区周边地区气温</p>
+<p class="fragment highlight-red">C．阻塞鱼类洄游通道</p>
+<p>D．增加下游河川径流总量</p>
+</section>
+<section>
+<p>65．珠江三角洲是我国重要的出口加工工业基地，其发展的优势条件有</p>
+<p class="fragment highlight-red">A．劳动力数量多</p>
+<p>B．矿产资源丰富</p>
+<p>C．能源价格低廉</p>
+<p class="fragment highlight-red">D．对外联系便捷</p>
+</section>
+<section>
+<p>66．我国南方地区水土流失的主要原因是</p>
+<p class="fragment highlight-red">A．降水强度大</p>
+<p>B．热量充足</p>
+<p class="fragment highlight-red">C．植被破坏</p>
+<p>D．环境污染严重</p>
+</section>
+<section>
+<p>67．珠江入海口部分河段常出现咸潮现象，产生的主要原因是</p>
+<p class="fragment highlight-red">A．海水倒灌</p>
+<p class="fragment highlight-red">B．上游来水量减少</p>
+<p>C．工厂排放咸水</p>
+<p>D．河口蒸发量增大</p>
+</section>
+<section>
+<p>68．下列四个区域与其农业发展方向匹配合理的是</p>
+<p>A．东北平原——开垦沼泽地</p>
+<p class="fragment highlight-red">B．东南丘陵——发展茶园果园</p>
+<p>C．华北平原——发展水稻种植</p>
+<p class="fragment highlight-red">D．横断山区——发展垂直农业</p>
+</section>
+<section>
+<p>69．为缓解我国当前面临的能源短缺问题，应该采取的合理措施是</p>
+<p>A．限制沿海工业生产发展</p>
+<p class="fragment highlight-red">B．加快海洋能源开发</p>
+<p>C．向内地转移高耗能产业</p>
+<p class="fragment highlight-red">D．提高能源利用效率</p>
+</section>
+<section>
+<p>70．某出租车公司为了实时掌握本公司出租车的位置信息，应采用的技术方法是</p>
+<p>A．收看电视</p>
+<p>B．遥感</p>
+<p class="fragment highlight-red">C．全球定位系统</p>
+<p class="fragment highlight-red">D．地理信息系统</p>
+</section>
+
+   	
+        
+          
+     		</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+</html>

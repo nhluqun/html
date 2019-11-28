@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>2010广东会考题 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+                
+    
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){ 
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+    
+</script> --> 
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" > 
+                                                 <input type="text" name="bj" value="1" /> 
+                                                 <input type="submit" name="submit" value="点名" /> 
+                                </form></div>-->
+                            
+                                <div id="output1" style="position: absolute;right:760px;top:530px;width:220px;"> </div>
+                                <section>
+				<section>
+					<h1 style="text-align: center">2010年广东省学业水平测试</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+                                        
+					<p style="text-align: center">
+						<small>制作：吕群</small>
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="1" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+<p>第16届亚运会将于2010年11月在广州举行。据此并结合所学知识，完成1-2题。</p>
+<p>1．亚运会期间以下各城市白昼最长的是</p>
+<p>A．北京</p>
+<p>B．沈阳</p>
+<p>C．广州</p>
+<p class="fragment highlight-red">D．海口</p>
+</section>
+<section>
+<p>2．亚运会期间太阳直射点位置及移动方向是</p>
+<p>A．北半球，向南移动</p>
+<p>B．北半球，向北移动</p>
+<p class="fragment highlight-red">C．南半球，向南移动</p>
+<p>D．南半球，向北移动</p>
+</section>
+<section>
+<p>3．监测华北平原农作物病虫害影响范围，最快捷有效的方式是</p>
+<p class="fragment highlight-red">A．遥感</p>
+<p>B．地理信息系统</p>
+<p>C．全球定位系统</p>
+<p>D．人工实地调查</p>
+</section>
+<section>
+<p>下表为联合国预测的2001-2050年世界移民趋势。据此并结合所学知识，完成4—5题。</p>
+ <img  data-src="pic/2010gdhk/image014.png" alt="" style="position: absolute;left:100px;top:200px;width:1000px;">
+</section>
+                                <section>
+<p>4．世界人口迁移的主要趋向是</p>
+<p>A．从内陆国家向沿海国家迁移</p>
+<p class="fragment highlight-red">B．从发展中国家向发达国家迁移</p>
+<p>C．从西半球向东半球迁移</p>
+<p>D．从北半球向南半球迁移</p>
+</section>
+<section>
+<p>5．移民外迁的最主要目的是寻求</p>
+<p>A．更高的社会地位</p>
+<p class="fragment highlight-red">B．更高的经济收入</p>
+<p>C．更多的休闲时间</p>
+<p>D．更优的自然环境</p>
+</section>
+<section>
+<p>6．下列自然景观中能够反映非地带性的是</p>
+<p>A．加拿大的亚寒带针叶林</p>
+<p>B．亚马孙流域的热带雨林</p>
+<p>C．广东的亚热带常绿阔叶林</p>
+<p class="fragment highlight-red">D．塔里木盆地中的绿洲</p>
+</section>
+<section>
+<p>7．下列自然景观主要由内力作用形成的是</p>
+<p>A．黄河壶口瀑</p>
+<p class="fragment highlight-red">B．华山西峰绝壁</p>
+<p>C．广西桂林芦笛岩溶洞</p>
+<p>D．海南天涯海角沙滩</p>
+</section>
+<section>
+<p>8．季风气候最典型的地区是</p>
+<p class="fragment highlight-red">A．亚洲东部</p>
+<p>B．北美洲东部</p>
+<p>C．欧洲西部</p>
+<p>D．澳大利亚西部</p>
+</section>
+<section>
+<p>9．图1为城市各功能区付租能力与距城市中心距离关系示意图。</p>
+<p>与线段a、b、c付租能力相对应的城市功能区分别是</p>
+<p>A．住宅区、工业区、商业区</p>
+<p>B．商业区、工业区、住宅区</p>
+<p class="fragment highlight-red">C．商业区、住宅区、工业区</p>
+<p>D．工业区、商业区、住宅区</p>
+<img  data-src="pic/2010gdhk/image001.jpg" alt="" style="position: absolute;left:500px;top:200px;width:300px;">
+</section>
+<section>
+<p>10．广东鼎湖山自然保护区热量充足，降水丰沛，植被茂密，这</p>
+<p>体现了地理环境的</p>
+<p>A．差异性</p>
+<p>B．单一性</p>
+<p class="fragment highlight-red">C．整体性</p>
+<p>D．均衡性</p>
+</section>
+<section>
+<p>11．据报道，2009年10月岛国马尔代夫内阁成员身穿潜水服，在水下6米深处举行了特</p>
+<p>别会议，讨论海平面上升对该国的影响。此举旨在呼吁全球各国重视的环境问题是</p>
+<p>A．臭氧层空洞</p>
+<p>B．地面沉降</p>
+<p>C．海啸问题</p>
+<p class="fragment highlight-red">D．全球变暖</p>
+</section>
+<section>
+<p>12．下列经济部门中，受气候条件影响最大的是</p>
+<p>A．铁路运输业</p>
+<p>D．信息服务业</p>
+<p>C．服装加工业</p>
+<p class="fragment highlight-red">D．水稻种植业</p>
+</section>
+<section>
+<p>13．目前我国面临的主要人口问题是</p>
+<p>A．人口自然增长率低</p>
+<p>B．人口素质不断下降</p>
+<p class="fragment highlight-red">C．人口基数大</p>
+<p>D．人口流动性小</p>
+</section>
+<section>
+<p>14．下列日照图中(图2，箭头表示太阳光线)，能正确反映春分日日照状况的是</p>
+<p>A．①</p>
+<p>B．②</p>
+<p>C．③</p>
+<p class="fragment highlight-red">D．④</p>
+<img  data-src="pic/2010gdhk/image002.jpg" alt="" style="position: absolute;left:200px;top:200px;width:1000px;">
+</section>
+<section>
+<p>15．我国是一个地质灾害多发的国家。下列各地中，最易发生泥石流的是</p>
+<p class="fragment highlight-red">A．横断山区</p>
+<p>B．塔里木盆地</p>
+<p>C．内蒙古高原</p>
+<p>D．珠江三角洲</p>
+</section>
+<section>
+<p>16．当南亚盛行西南季风时</p>
+<p>A．珠江正值枯水期</p>
+<p>B．黄河出现冰情</p>
+<p class="fragment highlight-red">C．长江正值汛期</p>
+<p>D．澳大利亚正值一年最热时期</p>
+</section>
+<section>
+<p>17．南极洲至今无人定居的主要原因是</p>
+<p>A．社会经济落后</p>
+<p class="fragment highlight-red">B．自然条件恶劣</p>
+<p>C开发历史较短</p>
+<p>D．矿产资源贫乏</p>
+</section>
+<section>
+<p>18．最终决定各地农业生产类型和规模的社会经济因素是</p>
+<p>A．国家政策</p>
+<p>B．科技水平</p>
+<p class="fragment highlight-red">C．市场需求</p>
+<p>D交通条件</p>
+</section>
+<section>
+<p>19．由沿海向内陆的地域分异规律(经度地带性)表现最典型、尺度最大的地区是</p>
+<p>A．北美大陆低纬地区</p>
+<p class="fragment highlight-red">B．亚欧大陆中纬地区</p>
+<p>C．南美大陆中纬地</p>
+<p>D．非洲大陆低纬地区</p>
+</section>
+<section>
+<p>读“1800-2000年世界城市化水平图”(图3)，结合所学知识，完成20-21题。</p>
+<img  data-src="pic/2010gdhk/image003.jpg" alt="" style="position: absolute;left:100px;top:150px;width:600px;height: 500px;">
+</section>
+                                <section>
+<p>20．由图可知</p>
+<p>A．1800年前后，世界范围内城市化水平差距大</p>
+<p>B．发展中国家城市化水平高于发达国家</p>
+<p>C．发展中国家城市人口数量始终少于发达国家</p>
+<p class="fragment highlight-red">D．发展中国家城市化起步晚</p>
+</section>
+<section>
+<p>21．有关城市化，下列叙述不正确的是</p>
+<p>A．城市化导致建设用地增加</p>
+<p>B．城市化改变了居民就业结构</p>
+<p>C．城市化改变了人口空间分布</p>
+<p class="fragment highlight-red">D．城市建筑物的高度改变了太阳高度角</p>
+</section>
+<section>
+<p>22．下列有关南亚季风叙述正确的是</p>
+<p class="fragment highlight-red">A．气压带、风带的季节移动是形成南亚季风的原因之一</p>
+<p>B．南亚夏季风主要受亚洲高压影响</p>
+<p>C．受南亚夏季风影响时，印度西南部温和少雨</p>
+<p>D．受青藏高原阻挡，我国不受南亚季风影响</p>
+</section>
+<section>
+<p>23．纬度30o-40o之间大陆西岸地区气候的主要特征是</p>
+<p>A．终年高温少雨</p>
+<p class="fragment highlight-red">B．夏季高温干燥，冬季温和多雨</p>
+<p>C．终年温和多雨</p>
+<p>D．夏季高温多雨，冬季寒冷干燥</p>
+</section>
+<section>
+<p>24．下列地理现象表现为由赤道到两极地域分异规律(纬度地带性)的是</p>
+<p class="fragment highlight-red">A．我国东部自南向北出现针叶林一落叶阔叶林一常绿阔叶林景观</p>
+<p>B．非洲从赤道向北依次分布着热带雨林一热带草原一热带荒漠景观</p>
+<p>C．珠穆朗玛峰北坡自山麓到山顶依次出现草原一荒漠一冰川景观</p>
+<p>D．我国中纬地区自然景观自东向西依次出现森林一草原一荒漠景观</p>
+</section>
+<section>
+<p>25．某城镇盛行东南风，拟建一化工厂(如图4示意)，下列布局方案较为合理的是</p>
+<p>A．</p>
+<p>B．②</p>
+<p>C．③</p>
+<p class="fragment highlight-red">D．④</p>
+<img  data-src="pic/2010gdhk/image004.jpg" alt="" style="position: absolute;left:200px;top:200px;width:800px;">
+</section>
+<section>
+<p>26．近年来珠江三角洲作为全国商品粮基地的地位明显下降，主要原因是</p>
+<p class="fragment highlight-red">A．城市化推进速度快，人均耕地减少</p>
+<p>B．珠江口咸潮加剧，影响粮食生产</p>
+<p>C．夏秋季节多台风，粮食生产不稳定</p>
+<p>D．工业污染严重，粮食产量下降</p>
+</section>
+<section>
+<p>27．低碳经济谋求低能耗、低排放、低污染。发展低碳经济，应大力开发</p>
+<p>A．煤炭</p>
+<p>B．石油</p>
+<p>C．天然气</p>
+<p class="fragment highlight-red">D．太阳能</p>
+</section>
+<section>
+<p>读“我国某地区生态环境问题的成因与危害示意图”(图5)，结合所学知识，完成28-29题。</p>
+<p>28．图中所示的环境问题是</p>
+<p>A．荒漠化</p>
+<p>B．臭氧层空洞</p>
+<p class="fragment highlight-red">C．水土流失</p>
+<p>D．全球变暖</p>
+<img  data-src="pic/2010gdhk/image005.jpg" alt="" style="position: absolute;left:500px;top:100px;width:500px;">
+</section>
+<section>
+<p>29．图示环境问题最严重的地区是</p>
+<p class="fragment highlight-red">A．黄土高原</p>
+<p>B．塔里木盆地</p>
+<p>C．东北平原</p>
+<p>D．长江三角洲</p>
+</section>
+<section>
+<p>30．地中海沿岸地区所属的自然带主要是</p>
+<p>A．亚热带常绿阔叶林带</p>
+<p class="fragment highlight-red">B．亚热带常绿硬叶林带</p>
+<p>C．温带落叶阔叶林带</p>
+<p>D．亚寒带针叶林带</p>
+</section>
+<section>
+<p>31．某日某时，地球朝向太阳一侧的所有地区，短波通讯几乎</p>
+<p>全部中断。出现这一现象的原因是</p>
+<p class="fragment highlight-red">A．太阳活动引发地球大气电离层扰动</p>
+<p>B．臭氧层破坏引起地面紫外辐射增强</p>
+<p>C．火山爆发导致大气能见度降低</p>
+<p>D．太阳黑子增多造成地球磁场紊乱</p>
+</section>
+<section>
+<p>读图6，结合所学知识，完成32-34题。</p>
+<p>32．如果该图表示南大西洋洋流模式，则</p>
+<p>A．洋流①对沿岸地区有降温减湿作用</p>
+<p class="fragment highlight-red">B．洋流②主要是在西风影响下形成的</p>
+<p>C．洋流③对沿岸地区有增温增湿作用</p>
+<p>D．洋流④为寒流</p>
+<img  data-src="pic/2010gdhk/image006.jpg" alt="" style="position: absolute;left:700px;top:100px;width:300px;">
+</section>
+<section>
+<p>33．如果该图表示海陆间水循环模式，丙处为陆地，丁处为海洋，那么</p>
+<p>A．环节①为蒸发蒸腾</p>
+<p class="fragment highlight-red">B．环节②为径流</p>
+<p>C．环节③为水汽输送</p>
+<p>D．环节④为降水</p>
+<img  data-src="pic/2010gdhk/image006.jpg" alt="" style="position: absolute;left:700px;top:100px;width:300px;">
+</section>
+<section>
+<p>34．如果该图表示局部地区大气热力环流，则</p>
+<p>A．甲、乙两处气压相等</p>
+<p>B．丁处必为晴朗天气</p>
+<p class="fragment highlight-red">C．丙处为高压</p>
+<p>D．丙处温度较丁处高</p>
+<img  data-src="pic/2010gdhk/image006.jpg" alt="" style="position: absolute;left:700px;top:100px;width:300px;">
+</section>
+<section>
+<p>35．大洋洲某岛屿附近漂浮着一座来自南极冰架的巨大冰山，为了航行安全，需对此冰山</p>
+<p>进行动态监测，可采用的最佳手段是</p>
+<p class="fragment highlight-red">A．3S(RS、GIS、GPS的统称)技术</p>
+<p>B．大比例尺地形图量测</p>
+<p>C．实时录像监控</p>
+<p>D．实地调查①</p>
+</section>
+<section>
+<p>36．下列城市中，服务范围最小的是</p>
+<p>A．武汉</p>
+<p>B．广州</p>
+<p>C．西安</p>
+<p class="fragment highlight-red">D．井冈山</p>
+</section>
+<section>
+<p>读“珠三角与周边地区区域合作示意图”(图7)，结合所学知识，完成37-38题。</p>
+<p>37．关于图中箭头代表的含义，表述正确的是</p>
+<p>A．实线箭头代表资源和能源</p>
+<p class="fragment highlight-red">B．实线箭头代表技术和资金</p>
+<p>C．虚线箭头代表资源和技术</p>
+<p>D．虚线箭头代表能源和资金</p>
+<img  data-src="pic/2010gdhk/image007.jpg" alt="" style="position: absolute;left:700px;top:300px;width:400px;">
+</section>
+<section>
+<p>38．珠三角石化企业向粤西转移带来的可能影响有</p>
+<p>A．大量公司总部向粤西地区转移</p>
+<p>B．不利于珠三角地区的产业升级</p>
+<p class="fragment highlight-red">C．减轻珠三角地区的环境压力</p>
+<p>D．大量廉价劳动力向珠三角地区转移</p>
+<img  data-src="pic/2010gdhk/image007.jpg" alt="" style="position: absolute;left:700px;top:300px;width:400px;">
+</section>
+<section>
+<p>39．为缓解我国西北地区农业用水不足问题，最可行的措施是</p>
+<p>A．利用科技手段，增加冰雪融水量</p>
+<p>B．限制畜牧业发展，大力发展林业</p>
+<p class="fragment highlight-red">C．因地制宜，发展节水农业</p>
+<p>D．人工降雨，增加地表径流</p>
+</section>
+<section>
+<p>40．全球变暖带来的影响有</p>
+<p>A．丸气象灾害减少</p>
+<p>B．南极冰川面积扩大</p>
+<p>C．全球温度带北移</p>
+<p class="fragment highlight-red">D．海平面上升</p>
+</section>
+<section>
+<p>41．从地转偏向力考虑，理想状态下，下列示意图中(图8，空心箭头表示水流初始运动</p>
+<p>方向，虚线箭头表示水流实际运动方向)，能正确表示北半球水流流向的是</p>
+<p class="fragment highlight-red">A．①</p>
+<p>B．②</p>
+<p>C．③</p>
+<p>D．④</p>
+<img  data-src="pic/2010gdhk/image008.jpg" alt="" style="position: absolute;left:200px;top:300px;width:800px;">
+</section>
+<section>
+<p>42．下列关于广东省农业发展的叙述，正确的是</p>
+<p>A．扩大温带水果种植面积</p>
+<p>B．大力发展陡坡地种植业</p>
+<p>C．进一步扩大商品粮基地规模</p>
+<p class="fragment highlight-red">D．重点发展水产品养殖与加工业</p>
+</section>
+<section>
+<p>43．商业网点布局规划适宜采用的地理信息技术是</p>
+<p class="fragment highlight-red">A．GIS</p>
+<p>B．GPS</p>
+<p>C．RS</p>
+<p>D．RS和GPS</p>
+</section>
+<section>
+<p>44．人类活动影响最深刻最集中的地域类型是</p>
+<p>A．海洋</p>
+<p>B．乡村</p>
+<p class="fragment highlight-red">C．城市</p>
+<p>D．草原</p>
+</section>
+<section>
+<p>45．下列岩石中，最有可能找到化石的是</p>
+<p>A．花岗岩</p>
+<p class="fragment highlight-red">B．石灰岩</p>
+<p>C．大理岩</p>
+<p>D．玄武岩</p>
+</section>
+<section>
+<p>46．下列货物运输与所选择的运输方式对应最合理的是</p>
+<p>A．50万吨煤炭从山西运往天津——水路运输</p>
+<p class="fragment highlight-red">B．从北京运往美洲海地的救援物资——航空运输</p>
+<p>C．北京郊区水库的活鱼运往城内市场——铁路运输</p>
+<p>D．20万吨粮食从大连运往广州——公路运输</p>
+</section>
+<section>
+<p>47．下列各组地域单元中，区域划分依据相同的是</p>
+<p class="fragment highlight-red">A．云贵高原、四川盆地、东北平原、山东丘陵</p>
+<p>B．长江流域、云贵高原、东南丘陵、干旱地区</p>
+<p>C．亚热带、中纬度、亚欧大陆、华北平原</p>
+<p>D．广东省、湖南省、广州市、湿润地区</p>
+</section>
+<section>
+<p>48．人类社会发展历程中，人地矛盾最剧烈的时期是</p>
+<p>A．采猎时代</p>
+<p>B．农业时代</p>
+<p class="fragment highlight-red">C．工业时代</p>
+<p>D．后工业时代</p>
+</section>
+<section>
+<p>读“堰塞湖形成示意图”(图9)，结合所学知识，完成49—50题。</p>
+<p>49．图中堰塞湖形成的直接原因可能是</p>
+<p class="fragment highlight-red">A．滑坡</p>
+<p>B．修建大坝</p>
+<p>C．风化作用</p>
+<p>D．侵蚀作用</p>
+<img  data-src="pic/2010gdhk/image009.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>50．应对堰塞湖溃坝危害的最佳措施是</p>
+<p>A．撤离堰塞体上游居民</p>
+<p>B．加固堰塞体</p>
+<p class="fragment highlight-red">C．开挖泄洪通</p>
+<p>D.一次性摧毁堰塞体</p>
+<img  data-src="pic/2010gdhk/image009.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>51．图10为城市某功能区一天内不同时段的</p>
+<p>人口流动状况示意图，由图可知该功能区是</p>
+<p>A．商业区</p>
+<p class="fragment highlight-red">B．住宅区</p>
+<p>C．工业区</p>
+<p>D．行政区</p>
+<img  data-src="pic/2010gdhk/image010.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>52．城市中心商务区的形成主要是由于</p>
+<p>A．气候因素</p>
+<p>B．宗教因素</p>
+<p class="fragment highlight-red">C．经济因素</p>
+<p>D．地形因素</p>
+</section>
+<section>
+<p>53．图11为海陆风示意图，此图表示的昼夜状况和风是</p>
+<p>A．白天，海风</p>
+<p>B．夜晚，海风</p>
+<p class="fragment highlight-red">C．夜晚，陆风</p>
+<p>D．白天，陆风</p>
+<img  data-src="pic/2010gdhk/image011.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>54．下列解决青藏高原牧区能源问题的最合理措施是</p>
+<p>A．樵采天然植被</p>
+<p class="fragment highlight-red">B．开发利用太阳能</p>
+<p>C．大力发展薪炭林</p>
+<p>D．加大煤炭的开采</p>
+</section>
+<section>
+<p>55．我国南方地区以水田农业为主，北方地区以旱地农业为主，西北地区发展畜牧业。形</p>
+<p>成这种生产活动地域差异的主要自然因素是</p>
+<p class="fragment highlight-red">A．降水</p>
+<p>B．地形</p>
+<p>C．土壤</p>
+<p>D．热量</p>
+</section>
+<section>
+<p>读“甲、乙两类工业生产成本构成示意图”(图12)，结合所学知识，完成56-57题。</p>
+<p>56．甲类工业生产成本比重最大的是</p>
+<p>A．原料运费</p>
+<p>B．产品运费</p>
+<p>C．工资投入</p>
+<p class="fragment highlight-red">D．科技投入</p>
+<img  data-src="pic/2010gdhk/image012.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>57．乙类工业部门最可能是、</p>
+<p class="fragment highlight-red">A．制糖工业</p>
+<p>B．印刷工业</p>
+<p>C．航天工业</p>
+<p>D．电子装配工业</p>
+<img  data-src="pic/2010gdhk/image012.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>位于喜马拉雅山脉南麓的西藏墨脱县，是我国目前唯一不通公路的县，正在建设中的</p>
+<p>墨脱公路将于2012年建成通车。结合所学知识，完成58-60题。</p>
+<p>58．墨脱公路建设难度大的主要原因是</p>
+<p>A．终年多雨</p>
+<p>B．植被茂密</p>
+<p class="fragment highlight-red">C．地质条件复杂</p>
+<p>D．公路设计等级高</p>
+</section>
+<section>
+<p>59．该县境内雅鲁藏布江河段航运价值低，其主要原因是</p>
+<p>A．封冻期长</p>
+<p class="fragment highlight-red">B．落差大</p>
+<p>C．流量小</p>
+<p>D．含沙量大</p>
+</section>
+<section>
+<p>60．墨脱公路建成后有利于</p>
+<p>A．发挥该县的交通优势</p>
+<p class="fragment highlight-red">B．加强对外物资和文化的交流</p>
+<p>C．改善生态环境</p>
+<p>D．将经济优势转化为资源优势</p>
+</section>
+<section>
+<p>61．当地球位于公转轨道的远日点，此时</p>
+<p>A．地球公转速度较快</p>
+<p class="fragment highlight-red">B．地球公转速度较慢</p>
+<p>C．是每年的1月初</p>
+<p class="fragment highlight-red">D．是每年的7月初</p>
+</section>
+<section>
+<p>62．下列地理过程属于风化作用的是</p>
+<p class="fragment highlight-red">A．植物根系撑大岩石裂隙</p>
+<p class="fragment highlight-red">B．烈日曝晒岩石破碎</p>
+<p>C．风力侵蚀形成风蚀蘑菇</p>
+<p>D．暴雨冲刷形成冲沟</p>
+</section>
+<section>
+<p>63．关于城市化的叙述正确的是</p>
+<p>A．城市化水平是城市人口与乡村人口的比值</p>
+<p class="fragment highlight-red">B．城市化过程中，乡村人口转化为城市人口</p>
+<p class="fragment highlight-red">C．城市化过程中，农业用地转化为城市用地</p>
+<p>D．城市化影响工业化，工业化对城市化不产生影响</p>
+</section>
+<section>
+<p>64．减少大气中二氧化碳含量行之有效的措施是</p>
+<p>A．将石油和煤炭转化为气态燃料</p>
+<p>B．全面禁止使用氟氯烃类制冷物质</p>
+<p class="fragment highlight-red">C．植树造林，增加绿地面积</p>
+<p class="fragment highlight-red">D．开发新能源，减少化石能源的使用</p>
+</section>
+<section>
+<p>65．长江三峡水利枢纽工程的建设有利于</p>
+<p class="fragment highlight-red">A．航运、发电和灌溉</p>
+<p>B．防治水污染，净化水源</p>
+<p>C．鱼类洄游产卵，保护流域生态环境</p>
+<p class="fragment highlight-red">D．调节河川径流的季节变化，抵御洪水</p>
+</section>
+<section>
+<p>66．城市中大面积绿化带的主要作用有</p>
+<p class="fragment highlight-red">A．净化城市空气</p>
+<p>B．减轻酸雨危害</p>
+<p>C．防止水土流失</p>
+<p class="fragment highlight-red">D．减轻“热岛效应”强度</p>
+</section>
+<section>
+<p>67．图13为工业区位因素影响力随时间变化示意图，据此判断</p>
+<p>A．甲表示劳动力数量因素</p>
+<p class="fragment highlight-red">B．乙表示原料因素</p>
+<p>C．乙表示信息因素</p>
+<p class="fragment highlight-red">D．甲表示市场因素</p>
+<img  data-src="pic/2010gdhk/image013.jpg" alt="" style="position: absolute;left:500px;top:200px;width:500px;">
+</section>
+<section>
+<p>68．发展中国家较发达国家更容易引发环境问题，其</p>
+<p>主要原因是</p>
+<p class="fragment highlight-red">A．人口压力大</p>
+<p>B．人口分布不均</p>
+<p>C．经济技术水平低</p>
+<p class="fragment highlight-red">D．环保法规不完善</p>
+</section>
+<section>
+<p>69．近30年来，珠江三角洲地区城市化进程加快，</p>
+<p>主要表现在</p>
+<p>A．出现逆城市化现象</p>
+<p class="fragment highlight-red">B．城市规模扩大</p>
+<p class="fragment highlight-red">C．城镇数量增加</p>
+<p>D．人口自然增长率增加</p>
+</section>
+<section>
+<p>70．区域农业生产与地理环境密切相关。下列组合合理的是</p>
+<p>A．四川盆地——绿洲农业</p>
+<p class="fragment highlight-red">B．宁夏平原——灌溉农业</p>
+<p>C．长江三角洲——大牧场放牧业</p>
+<p class="fragment highlight-red">D．洞庭湖平原——水稻种植业</p>
+</section>
+
+   	
+          
+     		</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+</html>

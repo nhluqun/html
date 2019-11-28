@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>必修1第一节冷热不均引起大气运动 </title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+              <!--  <script src="/jquery/jquery-1.11.1.min.js"></script> -->
+              <script src="js/jquery-1.12.3.js"></script>
+<!--                 <script src="js/dianming.js"></script>
+<script src="js/jquery.form_1.js"></script>
+<!--
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $.post("../tk/index.php?r=student/getstudent",
+    {
+      bj:"1",
+      },
+    function(data,status){
+      alert("数据：" + data + "\n状态：" + status);
+    });
+  });
+});
+</script>
+-->
+<!--<script language="javascript">
+      document.onkeydown=function(event){
+        var event=event||window.event;
+              if(event.keyCode==68){
+               $.post("../tk/index.php?r=student/getstudent",
+   {
+    bj:"16",
+    //bj:document.getElementById("bj1").value,
+     },
+    function(data,status){
+  //alert("数据：" + data + "\n状态：" + status);
+   //  document.htmlForm.submit.click();
+    //var text="kdjf";
+      //document.getElementById("output1").innerHTML="<div style=\" position: absolute;right:850px;width: 190px;top:500px;\">"+data.xh+" "+data.name+"</div>";
+     // document.getElementById("output1").innerHTML=data.xh+" "+data.name;
+      // document.getElementById("output1").innerHTML="你按了D";
+        var obj = eval('(' + data+ ')');
+        document.getElementById("output1").innerHTML="<div style=\"background-color:#ffa; padding:20px\">"+obj.name+"   同学</div>";
+        $("div#output1").show(500);
+        $("div#output1").hide(6000);
+    //};
+                  };
+             };
+   };
+
+</script> -->
+
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+                          <!--  <div style="position: absolute;right:860px;top:400px">     <form id="htmlForm" action="../tk/index.php?r=student/getstudent" method="post" >
+                                                 <input type="text" name="bj" value="1" />
+                                                 <input type="submit" name="submit" value="点名" />
+                                </form></div>-->
+    <div id="output1" style="position: absolute;right:160px;top:-30px;width:520px;color:white"> </div>
+                                
+                                <section>
+				<section>
+					<h1 style="text-align: center">冷热不均引起大气运动练习</h1>
+                                        <p> </p>
+                                       <p> </p>
+                                       <p> </p>
+
+					<p >
+
+                              	</p>
+                                <p style="text-align: center"><small><a href="https://github.com/hakimel/reveal.js">制作工具reveal.js</a></small></p>
+				</section>
+                                                            	<section id="transitions">
+					<h2>幻灯片切换效果</h2>
+					<p>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+                                        <p>选择班级</p>
+                                        <input type="text" id="bj1" value="13" />
+				</section>
+
+				<section id="themes">
+					<p>
+						幻灯片样式 <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+                                </section>
+
+<section>
+	<section>
+<p>阅读下图，回答1～4题。。</P>
+<p>1.图中A、B、C三个箭头所表示的辐射依次是(   )</P>
+	<p>A.大气逆辐射、地面辐射、太阳辐射</p>
+<p class="fragment highlight-red"> B.太阳辐射、地面辐射、大气逆辐射</P>
+<p >C.地面辐射、大气逆辐射、太阳辐射 </P>
+<p > D.太阳辐射、大气逆辐射、地面辐射
+</P>
+		<img  data-src="pic/bx1-2.1/image010.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+		</section>
+
+</section>
+
+<section>
+				<section>
+
+					<p>2.下列辐射的波长由长到短排列的一组是(   )</P>
+					<p >A.地面辐射→大气辐射→太阳辐射</p>
+					<p class="fragment highlight-red">B.大气辐射→地面辐射→太阳辐射</P>
+					<p>C.太阳辐射→地面辐射→大气辐射</P>
+					<p >D.大气辐射→太阳辐射→地面辐射</P>
+					<img  data-src="pic/bx1-2.1/image010.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+				</section>
+
+		</section>
+				<section>
+							<section>
+					<p>3.大气主要的直接热源是(   )</P>
+					<p class="fragment highlight-red">A.地面辐射 </p>
+					<p >B.太阳辐射</P>
+					<p >C.大气辐射</P>
+					<p >D.大气逆辐射
+					</P>
+								<img  data-src="pic/bx1-2.1/image010.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+						</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>4.对地面起保温作用及其对应的字母分别是(   )</P>
+					<p >A.到达地面的太阳辐射</p>
+					<p >B.大气的反射作用D</p>
+					<p >C.大气的吸收作用B</p>
+					<p class="fragment highlight-red">D.大气的逆辐射作用C
+					</p>
+					<img  data-src="pic/bx1-2.1/image010.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+				</section>
+
+
+				</section>
+
+				<section>
+                 <section>
+					<p>5.新疆“早穿皮袄午穿纱，围着火炉吃西瓜”的主要原因是
+						①白天大气反射作用强
+						②夜间大气逆辐射弱
+						③大气对太阳辐射削弱作用小
+						④大气吸收太阳辐射少
+					</P>
+					<p >A.①② </p>
+					<p class="fragment highlight-red"> B.②③ </P>
+					<p >C.③④ </P>
+					<p >  D.①④
+					</P>
+
+				</section>
+
+				</section>
+				<section>
+				<section>
+
+                          <p >6.地面上不同地区的热量差异会引起空气流动。下列示意图中符合热力环流原理的是(   )</p>
+					<p >A.A </p>
+					<p class="fragment highlight-red">B.B</P>
+					<p >C.C </P>
+					<p >D.D</P>
+					<img  data-src="pic/bx1-2.1/image009.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+				</section>
+
+				</section>
+			<section>
+				<section>
+
+					<p>7.下图为热力环流侧视图，下列说法正确的是(   )
+					</P>
+					<p >A.温度：a>b>c>d
+					</p>
+					<p > B.气压：d>a>b>c</P>
+					<p class="fragment highlight-red">C.引起该环流形成的原因是地面冷热不均</P>
+					<p >D.热力环流是大气运动最复杂的形式 </P>
+					<img  data-src="pic/bx1-2.1/image008.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+				</section>
+
+			</section>
+
+				<section>
+				<section>
+
+					<p>8.读下面我国东部沿海某地热力因素形成的高空等压面示意图，完成下列要求。
+					</P>
+					<p >(1)高空C比D的气压[<span class="fragment fade-up" data-fragment-index="1"><font color="red">高</font></span>    ](高或低)，地面A比B的</p>
+					<p>气压[<span class="fragment fade-up" data-fragment-index="2"><font color="red">低</font></span>   ](高或低)。</p>
+					<p >(2)A比B的温度[ <span class="fragment fade-up" data-fragment-index="3"><font color="red">高</font></span>  ](高或低)。</P>
+					<p >(3)ABCD之间的热力环流呈[<span class="fragment fade-up" data-fragment-index="4"><font color="red">顺</font></span>     ](顺或逆)时针</p>
+					<p>方向流动。</P>
+					<p ></P>
+					<img  data-src="pic/bx1-2.1/image007.gif" alt="" style="position: absolute;left:750px;top:150px;width:400px;">
+				</section>
+
+				</section>
+				<section>
+					<section>
+					<p>9.图说地理。解读图中信息，判断正误。正确的在括号内打“√”，错误的打“×”。</P>
+<p>(1)A为太阳辐射，为长波辐射( <span class="fragment fade-up" data-fragment-index="1"><font color="red">×</font></span>  )
+</P>
+					<p >(2)A为短波辐射，E、F为长波辐射( <span class="fragment fade-up" data-fragment-index="2"><font color="red">√</font></span>  ) </p>
+					<p >(3)夜间多云时，气温比晴天高，主要与B有关(<span class="fragment fade-up" data-fragment-index="3"><font color="red">×</font></span>  )</P>
+					<p >(4)深秋的农田，燃烧秸秆目的是增加D的作用( <span class="fragment fade-up" data-fragment-index="4"><font color="red">√</font></span>   )</P>
+					<p >(5)C表示大气对太阳辐射的吸收作用( <span class="fragment fade-up" data-fragment-index="5"><font color="red">√</font></span>   )
+					</P>
+						<img  data-src="pic/bx1-2.1/image006.gif" alt="" style="position: absolute;left:850px;top:150px;width:400px;">
+					</section>
+
+				</section>
+				<section>
+				<section>
+
+					<p>1.下图为北京某年3月8日和3月9日气温变化图，读图判断下列说法正确的是(   )
+					</P>
+					<p >A.3月9日白天与夜晚气温都比3月8日低
+					</p>
+					<p class="fragment highlight-red">B.3月8日是晴天，3月9日是阴天</P>
+					<p >C.云层对大气不一定具有保温作用</P>
+					<p >D.体现了云层对太阳辐射和地面辐射的反射作用
+					</P>
+					<img  data-src="pic/bx1-2.1/image005.jpg" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+				</section>
+				<section>
+
+					<p>《齐民要术》中有这样一段描述：“凡五果，花盛时遭霜，则无子。天雨新晴，北风寒彻，是夜必霜。此时放火作煴［(yūn)，无焰的微火］，少得烟气，则免于霜矣。”读上文，回答2、3题。
+					</P>
+					<p >2.“天雨新晴，北风寒彻”造成“是夜必霜”，其原因是
+					</p>
+
+					<p >A.雨后的夜晚气温必定很低<P>
+					<p class="fragment highlight-red">B.受冷空气影响，加之晴朗的夜晚，大气逆辐射弱</P>
+					<p >C.晴朗的夜晚，水汽含量大</P>
+                              <p >D.晴朗的夜晚，地面辐射加强
+							  </p>
+
+				</section>
+
+<section>
+
+					<p >3.“放火作煴，少得烟气，则免于霜矣”的原因是(   )
+						①“烟气”使得大气逆辐射增强，使地面温度不致于降得过低
+						②“烟气”的主要成分为CO2，对地面有明显的保温作用
+						③“放火作煴”，将地面直接烤暖
+						④“放火作煴”，将大气直接熏暖</p>
+
+					<p class="fragment highlight-red">A.①②</P>
+					<p >B.③④ </P>
+					<p >C.①③  </P>
+                              <p >D.②④
+							  </p>
+
+				</section>
+
+<section>
+<p >(2011·潍坊模拟)读大气热力作用示意图，回答4、5题。</p>
+<p >4.有关大气热力作用的说法正确的是(   )
+</p>
+
+					<p >A.③只出现在晚上</P>
+					<p >B.①为长波辐射，②为短波辐射</P>
+					<p >C.地面热量的收入主要来自③</P>
+                              <p class="fragment highlight-red">D.近地面大气的直接热源是②</p>
+	<img  data-src="pic/bx1-2.1/image004.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+
+<section>
+
+<p >5.青藏高原与四川盆地纬度相当，关于两地热力状况的比较，正确的是(   )
+</p>
+
+					<p>A.青藏高原的年平均气温较低，与①大小有关</P>
+					<p >B.四川盆地的年太阳总辐射量较小，与②大小有关</P>
+					<p class="fragment highlight-red">C.四川盆地的气温日较差较小，与①③大小有关</P>
+                              <p >D.青藏高原的年太阳辐射总量较大，与④大小无关
+							  </p>
+	<img  data-src="pic/bx1-2.1/image004.gif" alt="" style="position: absolute;left:820px;top:250px;width:400px;">
+				</section>
+
+<section>
+
+<p >6.下面的等压面分布图中，正确的是(   )</p>
+
+					<p >A.A</P>
+					<p class="fragment highlight-red"> B.B  </P>
+					<p > C.C </P>
+                              <p > D.D</p>
+	<img  data-src="pic/bx1-2.1/image003.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section><section>
+
+<p >7.下图为城市风原理逻辑图，甲乙丙丁分别表示热力环流的某个环节，数字序号为具体内容，下列组合最恰当的是(   )①城区和郊区地面冷热不均
+	②空气垂直运动
+	③高空、近地面同一水平面气压差异
+	④空气水平运动
+</p>
+
+					<p >A.甲①  乙④  丙③  丁②</P>
+					<p class="fragment highlight-red">B.甲①  乙②  丙③  丁④</P>
+					<p >C.甲③  乙②  丙①  丁④</P>
+                              <p >D.甲②  乙③  丙①  丁④
+							  </p>
+
+				<img  data-src="pic/bx1-2.1/image002.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section><section>
+
+<p >8.下图为海陆风示意图，此图表示的昼夜状况和风向是(   )
+</p>
+
+					<p >A.白天，海风 </P>
+					<p >B.夜晚，海风</P>
+					<p class="fragment highlight-red">C.夜晚，陆风</P>
+                              <p > D.白天，陆风</p>
+				<img  data-src="pic/bx1-2.1/image001.gif" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section><section>
+
+<p >9.读相同纬度的拉萨和宁波海拔示意图，分析回答下列问题。(9分)
+</p>
+				<p >(1)在同等天气条件下，两地中太阳辐射较强的是[<span class="fragment fade-up" data-fragment-index="1" style="color:red">拉萨</span>]，理由为[<span class="fragment fade-up" font color="red" data-fragment-index="2"><font color="red">海拔高，空气稀薄，对太阳辐射削弱少</font></span>]。</P>
+				<p>(2)两地中白天气温较低的是[<span class="fragment fade-up" data-fragment-index="3"><font color="red">拉萨</font></span>]，理由为</p>
+					<p>[<span class="fragment fade-up" data-fragment-index="4"><font color="red">拉萨地区地势高，空气稀薄，近地面</font></span></P>
+				<p><span class="fragment fade-up" data-fragment-index="4"><font color="red">空气得到的地面辐射和太阳辐射都比较少</font></span>]。</P>
+				<p >(3)两地中夜晚气温较高的是[<span class="fragment fade-up" data-fragment-index="5"><font color="red">宁波</font></span>]，理由为[</p>
+				<p><span class="fragment fade-up" data-fragment-index="6"><font color="red">海拔低，水汽和二氧化碳含量多，大气逆辐射强</font></span>]</P>
+
+					<img  data-src="pic/bx1-2.1/9.jpg" alt="" style="position: absolute;left:780px;top:250px;width:400px;">
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+</script>
+	</body>
+
+</html>
