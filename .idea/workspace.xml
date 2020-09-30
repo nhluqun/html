@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="717b9c2d-ee39-460b-9e13-9d9166402238" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bx1-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bx1-52.html" afterDir="false" />
+    <list default="true" id="717b9c2d-ee39-460b-9e13-9d9166402238" name="Default" comment="必修1基本完结除了第2单元测试">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pic/bx1-3/3dy9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bx1-51.html" beforeDir="false" afterPath="$PROJECT_DIR$/bx1-51.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,32 +66,27 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1UGuuD8Z1eq0OukbMEMDf3HSOlC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/vue-element-admin" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="F:\http\www\html" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -102,6 +110,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -140,25 +149,35 @@
       <workItem from="1574995481696" duration="496000" />
       <workItem from="1575358567509" duration="2354000" />
       <workItem from="1575427240162" duration="297000" />
-      <workItem from="1575531033946" duration="4438000" />
+      <workItem from="1575531033946" duration="4972000" />
+      <workItem from="1575850198901" duration="317000" />
+      <workItem from="1600222119787" duration="216000" />
+      <workItem from="1600760430514" duration="176000" />
     </task>
+    <task id="LOCAL-00001" summary="必修1基本完结除了第2单元测试">
+      <created>1575535598499</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575535598499</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -167,5 +186,15 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="必修1基本完结除了第2单元测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="必修1基本完结除了第2单元测试" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="294" key="FileChooserDialogImpl" timestamp="1600760601678">
+      <screen x="0" y="47" width="1920" height="994" />
+    </state>
+    <state x="632" y="294" key="FileChooserDialogImpl/0.47.1920.994@0.47.1920.994" timestamp="1600760601678" />
   </component>
 </project>
